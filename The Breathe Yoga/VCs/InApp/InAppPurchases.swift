@@ -94,11 +94,7 @@ class InAppPurchases: UIViewController {
         }
         
     }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        rateApp()
-    }
-    
+
     var weekBool = true
     
     @objc func weekViewtapped(){

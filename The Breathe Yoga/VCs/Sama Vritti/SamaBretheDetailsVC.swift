@@ -20,6 +20,7 @@ class SamaBretheDetailsVC: UIViewController {
       nextButton.layer.cornerRadius = nextButton.bounds.height/2
       
       updateYogaStates(Type: .sama)
+      rateApp()
   }
   
   @IBAction func done(_ sender: Any) {

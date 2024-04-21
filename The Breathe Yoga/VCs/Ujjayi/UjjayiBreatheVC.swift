@@ -42,6 +42,8 @@ class UjjayiBreatheVC: UIViewController {
         
         self.mytimer = Timer.scheduledTimer(timeInterval: 17, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
         self.animationImage.rotate()
+        
+        rateApp()
     }
     
     

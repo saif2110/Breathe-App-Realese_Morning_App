@@ -1123,7 +1123,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8r0-ER-07G">
-                                <rect key="frame" x="20" y="458.99999999999994" width="335" height="143.33333333333331"/>
+                                <rect key="frame" x="20" y="429" width="335" height="143.33333333333337"/>
                                 <string key="text">1) Place your phone's camera module on the wrist (as shown in image)
 
 2) Hold it till you get vibration feedback on phone. 
@@ -1133,10 +1133,10 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch" translatesAutoresizingMaskIntoConstraints="NO" id="ySi-w1-zdl">
-                                <rect key="frame" x="20" y="169" width="335" height="280"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch" translatesAutoresizingMaskIntoConstraints="NO" id="ySi-w1-zdl">
+                                <rect key="frame" x="0.0" y="169" width="375" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="280" id="4C7-PU-RE9"/>
+                                    <constraint firstAttribute="height" constant="250" id="4C7-PU-RE9"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Xdj-6v-M2I">
@@ -1186,9 +1186,9 @@
                             <constraint firstAttribute="bottom" secondItem="c0K-aT-uXo" secondAttribute="bottom" id="WLR-ja-hfS"/>
                             <constraint firstItem="ySi-w1-zdl" firstAttribute="top" secondItem="uD9-am-stu" secondAttribute="bottom" constant="10" id="Yv3-X7-9L3"/>
                             <constraint firstItem="uD9-am-stu" firstAttribute="top" secondItem="4Ok-0D-7Yr" secondAttribute="bottom" id="ZdH-Sq-AAp"/>
-                            <constraint firstItem="ySi-w1-zdl" firstAttribute="leading" secondItem="NTc-eC-Ewo" secondAttribute="leading" constant="20" id="e2G-MP-X8X"/>
+                            <constraint firstItem="ySi-w1-zdl" firstAttribute="leading" secondItem="NTc-eC-Ewo" secondAttribute="leading" id="e2G-MP-X8X"/>
                             <constraint firstItem="NTc-eC-Ewo" firstAttribute="trailing" secondItem="8r0-ER-07G" secondAttribute="trailing" constant="20" id="fIY-Tn-8Hg"/>
-                            <constraint firstItem="ySi-w1-zdl" firstAttribute="trailing" secondItem="NTc-eC-Ewo" secondAttribute="trailing" constant="-20" id="kCI-PA-vTS"/>
+                            <constraint firstItem="ySi-w1-zdl" firstAttribute="trailing" secondItem="NTc-eC-Ewo" secondAttribute="trailing" id="kCI-PA-vTS"/>
                             <constraint firstItem="c0K-aT-uXo" firstAttribute="trailing" secondItem="epP-hh-Rui" secondAttribute="trailing" id="nEr-sF-JLU"/>
                             <constraint firstItem="c0K-aT-uXo" firstAttribute="top" secondItem="epP-hh-Rui" secondAttribute="top" id="nkh-ce-qRA"/>
                             <constraint firstItem="lPD-Ey-sht" firstAttribute="leading" secondItem="NTc-eC-Ewo" secondAttribute="leading" constant="20" id="okm-Ft-HyO"/>
@@ -2164,25 +2164,25 @@ Cg
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SEM-vK-dUd">
-                                <rect key="frame" x="20" y="664" width="340" height="65"/>
+                                <rect key="frame" x="20" y="682" width="340" height="47"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Kapalbhati. To know " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-uh-MZ1">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="36"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Kapalbhati." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-uh-MZ1">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5L9-UD-bdQ">
-                                        <rect key="frame" x="0.0" y="36" width="340" height="29"/>
+                                        <rect key="frame" x="0.0" y="18" width="340" height="29"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="37i-SS-CU0">
-                                                <rect key="frame" x="0.0" y="0.0" width="35.333333333333336" height="29"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To know more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="37i-SS-CU0">
+                                                <rect key="frame" x="0.0" y="0.0" width="95.666666666666671" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tv-Gk-Wmf">
-                                                <rect key="frame" x="40.333333333333343" y="0.0" width="299.66666666666663" height="29"/>
+                                                <rect key="frame" x="100.66666666666667" y="0.0" width="239.33333333333331" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Click Here">
@@ -3197,10 +3197,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-aG-ZTV">
-                                        <rect key="frame" x="74.666666666666671" y="51.666666666666629" width="193.66666666666657" height="61.333333333333343"/>
+                                        <rect key="frame" x="117.66666666666666" y="51.666666666666629" width="108.00000000000003" height="61.333333333333343"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TP8-kR-PBN" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="11.666666666666686" width="101" height="38"/>
+                                                <rect key="frame" x="0.0" y="15.666666666666686" width="58" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title=" Relaxed">
                                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3213,7 +3213,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-1j-Lp3" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="110.99999999999997" y="11.666666666666686" width="82.666666666666657" height="38"/>
+                                                <rect key="frame" x="68" y="15.666666666666686" width="40" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title=" Work">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3228,10 +3228,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hTj-b1-ixr">
-                                        <rect key="frame" x="47.666666666666671" y="103.00000000000001" width="247.66666666666663" height="61.666666666666671"/>
+                                        <rect key="frame" x="90" y="103.00000000000001" width="163" height="61.666666666666671"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpt-Sp-svN" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="11.999999999999943" width="114.33333333333333" height="38"/>
+                                                <rect key="frame" x="0.0" y="15.999999999999943" width="72" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Just Woke">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3244,7 +3244,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Kg-2y-8rh" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="124.33333333333334" y="11.999999999999943" width="123.33333333333334" height="38"/>
+                                                <rect key="frame" x="82" y="15.999999999999943" width="81" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title=" Sleep Time">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3259,10 +3259,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sbi-eB-yRW">
-                                        <rect key="frame" x="72" y="154.66666666666669" width="199" height="61.666666666666657"/>
+                                        <rect key="frame" x="114.66666666666666" y="154.66666666666669" width="114" height="61.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW6-be-PmN" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="12" width="103.66666666666667" height="38"/>
+                                                <rect key="frame" x="0.0" y="16" width="61" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Stressed">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3275,7 +3275,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cJ-Gh-chE" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="113.66666666666666" y="12" width="85.333333333333343" height="38"/>
+                                                <rect key="frame" x="71" y="16" width="43" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Active">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3290,10 +3290,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zHc-YG-OVA">
-                                        <rect key="frame" x="80.666666666666671" y="206.33333333333331" width="181.66666666666663" height="61.666666666666686"/>
+                                        <rect key="frame" x="123" y="206.33333333333331" width="97" height="61.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mT-ev-1HH" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="11.666666666666629" width="78.333333333333329" height="38"/>
+                                                <rect key="frame" x="0.0" y="15.666666666666629" width="36" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Tired">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3306,7 +3306,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wJ-Ch-5t1" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="88.333333333333343" y="11.666666666666629" width="93.333333333333343" height="38"/>
+                                                <rect key="frame" x="46" y="15.666666666666629" width="51" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Hungry">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3426,25 +3426,25 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Knf-0y-Cie">
-                                <rect key="frame" x="20" y="663" width="340" height="66"/>
+                                <rect key="frame" x="20" y="681" width="340" height="48"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Sama Vritti. To know " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VEb-oD-3Br">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="36"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing called Sama Vritti." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VEb-oD-3Br">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="WOg-q3-TLA">
-                                        <rect key="frame" x="0.0" y="36" width="340" height="30"/>
+                                        <rect key="frame" x="0.0" y="18" width="340" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4vX-0O-lMT">
-                                                <rect key="frame" x="0.0" y="0.0" width="35.333333333333336" height="30"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To know more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4vX-0O-lMT">
+                                                <rect key="frame" x="0.0" y="0.0" width="95.666666666666671" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmh-Es-0Hg">
-                                                <rect key="frame" x="40.333333333333343" y="0.0" width="299.66666666666663" height="30"/>
+                                                <rect key="frame" x="100.66666666666667" y="0.0" width="239.33333333333331" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Click Here">
@@ -3861,25 +3861,25 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5uS-FI-xdO">
-                                <rect key="frame" x="20" y="629" width="340" height="66"/>
+                                <rect key="frame" x="20" y="647" width="340" height="48"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Anuloma. To know " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ixE-bB-wMY">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="36"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing called Anuloma." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ixE-bB-wMY">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mCA-Ju-aGa">
-                                        <rect key="frame" x="0.0" y="36" width="340" height="30"/>
+                                        <rect key="frame" x="0.0" y="18" width="340" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jQS-Md-YuT">
-                                                <rect key="frame" x="0.0" y="0.0" width="35.333333333333336" height="30"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To know more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jQS-Md-YuT">
+                                                <rect key="frame" x="0.0" y="0.0" width="95.666666666666671" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3Y-Ql-h5n">
-                                                <rect key="frame" x="40.333333333333343" y="0.0" width="299.66666666666663" height="30"/>
+                                                <rect key="frame" x="100.66666666666667" y="0.0" width="239.33333333333331" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Click Here">
@@ -4320,25 +4320,25 @@ Note - Don't fill your lungs too full of air 🫁.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="94z-SA-6yj">
-                                <rect key="frame" x="20" y="629" width="340" height="66"/>
+                                <rect key="frame" x="20" y="647" width="340" height="48"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Ujjayi. To know " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nKl-bN-MBh">
-                                        <rect key="frame" x="0.0" y="0.0" width="340" height="36"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Ujjayi." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nKl-bN-MBh">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cHd-aA-8hd">
-                                        <rect key="frame" x="0.0" y="36" width="340" height="30"/>
+                                        <rect key="frame" x="0.0" y="18" width="340" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hFs-sv-cLg">
-                                                <rect key="frame" x="0.0" y="0.0" width="35.333333333333336" height="30"/>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To know more" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hFs-sv-cLg">
+                                                <rect key="frame" x="0.0" y="0.0" width="95.666666666666671" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b9-qt-LQP">
-                                                <rect key="frame" x="40.333333333333343" y="0.0" width="299.66666666666663" height="30"/>
+                                                <rect key="frame" x="100.66666666666667" y="0.0" width="239.33333333333331" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Click Here">
@@ -4747,19 +4747,19 @@ Inhale Slowly Through Both Nostrils 🌬️</string>
     </scenes>
     <designables>
         <designable name="0Kg-2y-8rh">
-            <size key="intrinsicContentSize" width="123.33333333333333" height="38"/>
+            <size key="intrinsicContentSize" width="81" height="30"/>
         </designable>
         <designable name="5jD-1j-Lp3">
-            <size key="intrinsicContentSize" width="82.666666666666657" height="38"/>
+            <size key="intrinsicContentSize" width="40" height="30"/>
         </designable>
         <designable name="6wJ-Ch-5t1">
-            <size key="intrinsicContentSize" width="93.333333333333343" height="38"/>
+            <size key="intrinsicContentSize" width="51" height="30"/>
         </designable>
         <designable name="7mT-ev-1HH">
-            <size key="intrinsicContentSize" width="78.333333333333343" height="38"/>
+            <size key="intrinsicContentSize" width="36" height="30"/>
         </designable>
         <designable name="8cJ-Gh-chE">
-            <size key="intrinsicContentSize" width="85.333333333333343" height="38"/>
+            <size key="intrinsicContentSize" width="43" height="30"/>
         </designable>
         <designable name="DfI-gO-pnS">
             <size key="intrinsicContentSize" width="67" height="30"/>
@@ -4768,7 +4768,7 @@ Inhale Slowly Through Both Nostrils 🌬️</string>
             <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="TP8-kR-PBN">
-            <size key="intrinsicContentSize" width="101" height="38"/>
+            <size key="intrinsicContentSize" width="58" height="30"/>
         </designable>
         <designable name="cii-wV-Z1r">
             <size key="intrinsicContentSize" width="88" height="30"/>
@@ -4777,10 +4777,10 @@ Inhale Slowly Through Both Nostrils 🌬️</string>
             <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="vW6-be-PmN">
-            <size key="intrinsicContentSize" width="103.66666666666667" height="38"/>
+            <size key="intrinsicContentSize" width="61" height="30"/>
         </designable>
         <designable name="zpt-Sp-svN">
-            <size key="intrinsicContentSize" width="114.33333333333333" height="38"/>
+            <size key="intrinsicContentSize" width="72" height="30"/>
         </designable>
     </designables>
     <resources>

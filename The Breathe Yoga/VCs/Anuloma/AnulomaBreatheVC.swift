@@ -34,6 +34,7 @@ class AnulomaBreatheVC: UIViewController {
         
         self.animationImage.rotate()
         
+        rateApp()
         
     }
     

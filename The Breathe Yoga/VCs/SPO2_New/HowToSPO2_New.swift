@@ -32,7 +32,6 @@ class HowToSPO2_New: UIViewController {
     
     @IBAction func close(_ sender: Any) {
         dismiss(animated: true, completion: nil)
-        requestToRate()
     }
 
 }

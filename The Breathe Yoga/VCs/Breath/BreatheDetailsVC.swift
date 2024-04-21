@@ -24,6 +24,8 @@ class BreatheDetailsVC: UIViewController {
         
         updateYogaStates(Type:yogaType)
         
+        rateApp()
+        
     }
     
     @IBAction func done(_ sender: Any) {

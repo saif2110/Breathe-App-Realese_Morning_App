@@ -24,6 +24,8 @@ class hearRateDeatailsVC: UIViewController {
         }else{
             bpmText.attributedText = BPMMessage(bpm: bpm)
         }
+        
+        rateApp()
     }
     
     
