@@ -1,0 +1,42 @@
+PODS:
+  - DateTimePicker (2.5.3)
+  - IQKeyboardManagerSwift (6.5.10)
+  - MBCircularProgressBar (0.3.5)
+  - PDFGenerator (3.1.0)
+  - Purchases (3.14.2):
+    - PurchasesCoreSwift (= 3.14.2)
+  - PurchasesCoreSwift (3.14.2)
+  - SQLite.swift (0.13.3):
+    - SQLite.swift/standard (= 0.13.3)
+  - SQLite.swift/standard (0.13.3)
+
+DEPENDENCIES:
+  - DateTimePicker (~> 2.5)
+  - IQKeyboardManagerSwift
+  - MBCircularProgressBar
+  - PDFGenerator
+  - Purchases
+  - SQLite.swift
+
+SPEC REPOS:
+  trunk:
+    - DateTimePicker
+    - IQKeyboardManagerSwift
+    - MBCircularProgressBar
+    - PDFGenerator
+    - Purchases
+    - PurchasesCoreSwift
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  DateTimePicker: 52701ddf656a50856d3510955933f767cd2c947c
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  PDFGenerator: 17d6bc525db0a3fcd156fbf00f9d1b8d5cc75d1e
+  Purchases: 5af37054554583f973b0ad0b9653e412bb8649db
+  PurchasesCoreSwift: 588d3702282fb96222d7d5e05acd84f37e50a1ce
+  SQLite.swift: 903bfa3bc9ab06345fdfbb578e34f47cfcf417da
+
+PODFILE CHECKSUM: 76a775e93379eacf4e5032a52c37b37179657916
+
+COCOAPODS: 1.11.3

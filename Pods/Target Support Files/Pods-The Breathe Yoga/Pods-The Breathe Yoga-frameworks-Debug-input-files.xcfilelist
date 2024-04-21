@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DateTimePicker/DateTimePicker.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework
+${BUILT_PRODUCTS_DIR}/PDFGenerator/PDFGenerator.framework
+${BUILT_PRODUCTS_DIR}/Purchases/Purchases.framework
+${BUILT_PRODUCTS_DIR}/PurchasesCoreSwift/PurchasesCoreSwift.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework

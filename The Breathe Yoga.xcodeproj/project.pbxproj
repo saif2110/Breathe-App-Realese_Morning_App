@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C02EBFD269199830063A7EF /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C02EBFC269199830063A7EF /* Header.xib */; };
+		5C1629D9266CDBDF00220285 /* inhale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C1629D7266CDBDF00220285 /* inhale.mp3 */; };
+		5C1629DA266CDBDF00220285 /* exhale.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C1629D8266CDBDF00220285 /* exhale.mp3 */; };
+		5C1629DC266CDE7D00220285 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1629DB266CDE7D00220285 /* model.swift */; };
+		5C1629DF266D3C3400220285 /* HowToBreath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1629DE266D3C3400220285 /* HowToBreath.swift */; };
+		5C1D142B26961AF70082A2A8 /* InAppPurchases.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D142A26961AF70082A2A8 /* InAppPurchases.xib */; };
+		5C301FAD268CD8050066CFD8 /* PDFReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C301FAC268CD8050066CFD8 /* PDFReaderVC.swift */; };
+		5C365DE4267E0ED7006CC538 /* ExploreWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C365DE3267E0ED7006CC538 /* ExploreWebview.swift */; };
+		5C389C50266A1EBF00211754 /* howToMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C4F266A1EBF00211754 /* howToMeasure.swift */; };
+		5C389C52266A1FA500211754 /* heartRateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C51266A1FA500211754 /* heartRateVC.swift */; };
+		5C389C73266A4B7C00211754 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C72266A4B7C00211754 /* ColorUtils.swift */; };
+		5C389C75266A4B8200211754 /* AVCaptureDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C74266A4B8200211754 /* AVCaptureDevice+Extensions.swift */; };
+		5C389C77266A4B8800211754 /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C76266A4B8800211754 /* HeartRateManager.swift */; };
+		5C389C79266A4B9800211754 /* PulseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C78266A4B9800211754 /* PulseDetector.swift */; };
+		5C389C7B266A4BA800211754 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C389C7A266A4BA800211754 /* Filter.swift */; };
+		5C4832D5266D4DD800DB50B7 /* BreathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4832D4266D4DD800DB50B7 /* BreathVC.swift */; };
+		5C4AD18F26767E2700B8178D /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD18E26767E2700B8178D /* ListVC.swift */; };
+		5C4AD1912676806400B8178D /* CustomSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD1902676806400B8178D /* CustomSegment.swift */; };
+		5C4AD1932677465000B8178D /* SQLmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD1922677465000B8178D /* SQLmodel.swift */; };
+		5C77703B26A2E3DA001C0B7D /* HowToSPO2_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C77703A26A2E3DA001C0B7D /* HowToSPO2_New.swift */; };
+		5C77703D26A2EA30001C0B7D /* DisclaimerVC_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C77703C26A2EA30001C0B7D /* DisclaimerVC_New.swift */; };
+		5C77703F26A321B3001C0B7D /* SelectDeviceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C77703E26A321B3001C0B7D /* SelectDeviceVC.swift */; };
+		5C7DF14D26A6BDAC00E921C6 /* stateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7DF14C26A6BDAC00E921C6 /* stateButton.swift */; };
+		5C92DD5626A4AD75005FA8C2 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C92DD5526A4AD75005FA8C2 /* DatePickerDialog.swift */; };
+		5C9DD442267D18430091D592 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9DD441267D18430091D592 /* Explore.swift */; };
+		5C9DD445267D19FF0091D592 /* imageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9DD444267D19FF0091D592 /* imageViewCell.swift */; };
+		5CB54DD1266B633D00969E47 /* hearRateDeatailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB54DD0266B633D00969E47 /* hearRateDeatailsVC.swift */; };
+		5CB54DD3266B708300969E47 /* HowToSpo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB54DD2266B708300969E47 /* HowToSpo2.swift */; };
+		5CB54DD7266B998600969E47 /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB54DD6266B998600969E47 /* DisclaimerVC.swift */; };
+		5CB54DD9266BA75700969E47 /* BearthSPO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB54DD8266BA75700969E47 /* BearthSPO2.swift */; };
+		5CC5B26F268211DA00CC356B /* UserDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC5B26E268211DA00CC356B /* UserDef.swift */; };
+		5CCAA59F2669239900FD902D /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAA59E2669239900FD902D /* mainCell.swift */; };
+		5CCB54B4266F83C80086BB97 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCB54B3266F83C80086BB97 /* AudioToolbox.framework */; };
+		5CCB54B6266F8B590086BB97 /* BreatheDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB54B5266F8B590086BB97 /* BreatheDetailsVC.swift */; };
+		5CE7C0D1267E1440008AD3EA /* zero.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7C0D0267E1440008AD3EA /* zero.html */; };
+		5CE7C0D3267E1C82008AD3EA /* one.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7C0D2267E1C82008AD3EA /* one.html */; };
+		5CE7C0D5267E1DD3008AD3EA /* three.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7C0D4267E1DD3008AD3EA /* three.html */; };
+		5CE7C0D7267E1DFA008AD3EA /* four.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7C0D6267E1DFA008AD3EA /* four.html */; };
+		5CE7C0DC267E679D008AD3EA /* InAppPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7C0DA267E679D008AD3EA /* InAppPurchases.swift */; };
+		5CE7C0E3267FB995008AD3EA /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7C0E1267FB995008AD3EA /* Welcome.swift */; };
+		5CE7C0E4267FB995008AD3EA /* Welcome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE7C0E2267FB995008AD3EA /* Welcome.xib */; };
+		5CFE6D1D2668BF2D00F01AE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE6D1C2668BF2D00F01AE8 /* AppDelegate.swift */; };
+		5CFE6D212668BF2D00F01AE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE6D202668BF2D00F01AE8 /* ViewController.swift */; };
+		5CFE6D242668BF2D00F01AE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D222668BF2D00F01AE8 /* Main.storyboard */; };
+		5CFE6D262668BF3200F01AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D252668BF3200F01AE8 /* Assets.xcassets */; };
+		5CFE6D292668BF3200F01AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D272668BF3200F01AE8 /* LaunchScreen.storyboard */; };
+		5CFFC8C5266BE961002DE727 /* Spo2DeatilsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFC8C4266BE961002DE727 /* Spo2DeatilsVC.swift */; };
+		84887ACD29ADE62E0072C71B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84887ACC29ADE62E0072C71B /* GoogleService-Info.plist */; };
+		84887AD029ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 84887ACF29ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		84BD8ACC291F9590000D7D82 /* mainCellYoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8ACB291F9590000D7D82 /* mainCellYoga.swift */; };
+		B00419CE28D771970082024B /* SamaBretheDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00419CD28D771970082024B /* SamaBretheDetailsVC.swift */; };
+		B00419D128D774B70082024B /* AnulomaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00419D028D774B70082024B /* AnulomaVC.swift */; };
+		B009346E28E9D42E00CEF543 /* UjjayiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009346D28E9D42E00CEF543 /* UjjayiVC.swift */; };
+		B00BC0592905437D00736E74 /* MusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00BC0582905437D00736E74 /* MusicVC.swift */; };
+		B00BC061290544D100736E74 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC05B290544D100736E74 /* 0.mp3 */; };
+		B00BC062290544D100736E74 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC05C290544D100736E74 /* 1.mp3 */; };
+		B00BC063290544D100736E74 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC05D290544D100736E74 /* 2.mp3 */; };
+		B00BC064290544D100736E74 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC05E290544D100736E74 /* 3.mp3 */; };
+		B00BC065290544D100736E74 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC05F290544D100736E74 /* 4.mp3 */; };
+		B00BC066290544D100736E74 /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC060290544D100736E74 /* 5.mp3 */; };
+		B00BC06829054C2200736E74 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00BC06729054C2200736E74 /* 6.mp3 */; };
+		B00EA02928E977F0007AD097 /* AnulomaHowto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EA02828E977F0007AD097 /* AnulomaHowto.swift */; };
+		B00EA02B28E9786E007AD097 /* AnulomaBreatheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00EA02A28E9786E007AD097 /* AnulomaBreatheVC.swift */; };
+		B017F20928C50133005EC229 /* TimePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B017F20728C50133005EC229 /* TimePickerVC.swift */; };
+		B017F20A28C50133005EC229 /* TimePickerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B017F20828C50133005EC229 /* TimePickerVC.xib */; };
+		B02E049D28D10F1A0036223F /* SamaVrittiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E049C28D10F1A0036223F /* SamaVrittiVC.swift */; };
+		B05B894E28C4AFD700A88C47 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05B894D28C4AFD700A88C47 /* StoreKit.framework */; };
+		B09AA0FC28C4A8C6004CF2F8 /* Pods_The_Breathe_Yoga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09AA0FB28C4A8C6004CF2F8 /* Pods_The_Breathe_Yoga.framework */; };
+		B09E75B628D4BCF200D04303 /* SameBreatheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E75B528D4BCF200D04303 /* SameBreatheVC.swift */; };
+		B09E75B828D4C24900D04303 /* hold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B09E75B728D4C24900D04303 /* hold.mp3 */; };
+		B09E75BA28D4D07000D04303 /* inhale.json in Resources */ = {isa = PBXBuildFile; fileRef = B09E75B928D4D07000D04303 /* inhale.json */; };
+		B0B3C91B28CC7B8700604A43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B3C91A28CC7B8700604A43 /* icon.png */; };
+		B0D63D7528E9E00A006DCCC1 /* UjjayiHowto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D63D7428E9E00A006DCCC1 /* UjjayiHowto.swift */; };
+		B0D63D7728E9E0B8006DCCC1 /* UjjayiBreatheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D63D7628E9E0B7006DCCC1 /* UjjayiBreatheVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		307F6E4D4B298655DC84C8AA /* Pods-The Breathe Yoga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Breathe Yoga.release.xcconfig"; path = "Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga.release.xcconfig"; sourceTree = "<group>"; };
+		5AF43D94262BF4C74117D5A9 /* Pods_The_Breathe_Yoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Breathe_Yoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02EBFC269199830063A7EF /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		5C1629D7266CDBDF00220285 /* inhale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inhale.mp3; sourceTree = "<group>"; };
+		5C1629D8266CDBDF00220285 /* exhale.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = exhale.mp3; sourceTree = "<group>"; };
+		5C1629DB266CDE7D00220285 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		5C1629DE266D3C3400220285 /* HowToBreath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToBreath.swift; sourceTree = "<group>"; };
+		5C1D142A26961AF70082A2A8 /* InAppPurchases.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InAppPurchases.xib; sourceTree = "<group>"; };
+		5C301FAC268CD8050066CFD8 /* PDFReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderVC.swift; sourceTree = "<group>"; };
+		5C365DE3267E0ED7006CC538 /* ExploreWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreWebview.swift; sourceTree = "<group>"; };
+		5C389C4F266A1EBF00211754 /* howToMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howToMeasure.swift; sourceTree = "<group>"; };
+		5C389C51266A1FA500211754 /* heartRateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartRateVC.swift; sourceTree = "<group>"; };
+		5C389C72266A4B7C00211754 /* ColorUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		5C389C74266A4B8200211754 /* AVCaptureDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extensions.swift"; sourceTree = "<group>"; };
+		5C389C76266A4B8800211754 /* HeartRateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		5C389C78266A4B9800211754 /* PulseDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseDetector.swift; sourceTree = "<group>"; };
+		5C389C7A266A4BA800211754 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		5C4832D4266D4DD800DB50B7 /* BreathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathVC.swift; sourceTree = "<group>"; };
+		5C4AD18E26767E2700B8178D /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		5C4AD1902676806400B8178D /* CustomSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegment.swift; sourceTree = "<group>"; };
+		5C4AD1922677465000B8178D /* SQLmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLmodel.swift; sourceTree = "<group>"; };
+		5C77703A26A2E3DA001C0B7D /* HowToSPO2_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSPO2_New.swift; sourceTree = "<group>"; };
+		5C77703C26A2EA30001C0B7D /* DisclaimerVC_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerVC_New.swift; sourceTree = "<group>"; };
+		5C77703E26A321B3001C0B7D /* SelectDeviceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceVC.swift; sourceTree = "<group>"; };
+		5C7DF14C26A6BDAC00E921C6 /* stateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateButton.swift; sourceTree = "<group>"; };
+		5C92DD5526A4AD75005FA8C2 /* DatePickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		5C9DD441267D18430091D592 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		5C9DD444267D19FF0091D592 /* imageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewCell.swift; sourceTree = "<group>"; };
+		5CB54DD0266B633D00969E47 /* hearRateDeatailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hearRateDeatailsVC.swift; sourceTree = "<group>"; };
+		5CB54DD2266B708300969E47 /* HowToSpo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSpo2.swift; sourceTree = "<group>"; };
+		5CB54DD6266B998600969E47 /* DisclaimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerVC.swift; sourceTree = "<group>"; };
+		5CB54DD8266BA75700969E47 /* BearthSPO2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearthSPO2.swift; sourceTree = "<group>"; };
+		5CC5B26E268211DA00CC356B /* UserDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDef.swift; sourceTree = "<group>"; };
+		5CCAA59E2669239900FD902D /* mainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		5CCB54B3266F83C80086BB97 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5CCB54B5266F8B590086BB97 /* BreatheDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheDetailsVC.swift; sourceTree = "<group>"; };
+		5CE7C0D0267E1440008AD3EA /* zero.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zero.html; sourceTree = "<group>"; };
+		5CE7C0D2267E1C82008AD3EA /* one.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = one.html; sourceTree = "<group>"; };
+		5CE7C0D4267E1DD3008AD3EA /* three.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = three.html; sourceTree = "<group>"; };
+		5CE7C0D6267E1DFA008AD3EA /* four.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = four.html; sourceTree = "<group>"; };
+		5CE7C0DA267E679D008AD3EA /* InAppPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchases.swift; sourceTree = "<group>"; };
+		5CE7C0E1267FB995008AD3EA /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		5CE7C0E2267FB995008AD3EA /* Welcome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Welcome.xib; sourceTree = "<group>"; };
+		5CFE6D192668BF2D00F01AE8 /* The Breathe Yoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Breathe Yoga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFE6D1C2668BF2D00F01AE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CFE6D202668BF2D00F01AE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CFE6D232668BF2D00F01AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CFE6D252668BF3200F01AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CFE6D282668BF3200F01AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CFFC8C4266BE961002DE727 /* Spo2DeatilsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spo2DeatilsVC.swift; sourceTree = "<group>"; };
+		6AC8C7F9D75B7AA4832AB0F0 /* Pods-The Breathe Yoga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Breathe Yoga.debug.xcconfig"; path = "Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga.debug.xcconfig"; sourceTree = "<group>"; };
+		84887ACC29ADE62E0072C71B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84BD8ACB291F9590000D7D82 /* mainCellYoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCellYoga.swift; sourceTree = "<group>"; };
+		B00419CD28D771970082024B /* SamaBretheDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaBretheDetailsVC.swift; sourceTree = "<group>"; };
+		B00419D028D774B70082024B /* AnulomaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnulomaVC.swift; sourceTree = "<group>"; };
+		B009346D28E9D42E00CEF543 /* UjjayiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UjjayiVC.swift; sourceTree = "<group>"; };
+		B00BC0582905437D00736E74 /* MusicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVC.swift; sourceTree = "<group>"; };
+		B00BC05B290544D100736E74 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		B00BC05C290544D100736E74 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		B00BC05D290544D100736E74 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		B00BC05E290544D100736E74 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		B00BC05F290544D100736E74 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		B00BC060290544D100736E74 /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		B00BC06729054C2200736E74 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		B00EA02828E977F0007AD097 /* AnulomaHowto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnulomaHowto.swift; sourceTree = "<group>"; };
+		B00EA02A28E9786E007AD097 /* AnulomaBreatheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnulomaBreatheVC.swift; sourceTree = "<group>"; };
+		B017F20728C50133005EC229 /* TimePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerVC.swift; sourceTree = "<group>"; };
+		B017F20828C50133005EC229 /* TimePickerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimePickerVC.xib; sourceTree = "<group>"; };
+		B02E049C28D10F1A0036223F /* SamaVrittiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaVrittiVC.swift; sourceTree = "<group>"; };
+		B05B894D28C4AFD700A88C47 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B086C32128C49CE5002E9F80 /* The Breathe Yoga.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Breathe Yoga.entitlements"; sourceTree = "<group>"; };
+		B09AA0F728C4A8B8004CF2F8 /* Pods_The_Breathe_Yoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_The_Breathe_Yoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09AA0FB28C4A8C6004CF2F8 /* Pods_The_Breathe_Yoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_The_Breathe_Yoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09E75B528D4BCF200D04303 /* SameBreatheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameBreatheVC.swift; sourceTree = "<group>"; };
+		B09E75B728D4C24900D04303 /* hold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hold.mp3; sourceTree = "<group>"; };
+		B09E75B928D4D07000D04303 /* inhale.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inhale.json; sourceTree = "<group>"; };
+		B0B3C91A28CC7B8700604A43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B0D63D7428E9E00A006DCCC1 /* UjjayiHowto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UjjayiHowto.swift; sourceTree = "<group>"; };
+		B0D63D7628E9E0B7006DCCC1 /* UjjayiBreatheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UjjayiBreatheVC.swift; sourceTree = "<group>"; };
+		B0EEF91C28C4AB900051B32F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFE6D162668BF2D00F01AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05B894E28C4AFD700A88C47 /* StoreKit.framework in Frameworks */,
+				B09AA0FC28C4A8C6004CF2F8 /* Pods_The_Breathe_Yoga.framework in Frameworks */,
+				5CCB54B4266F83C80086BB97 /* AudioToolbox.framework in Frameworks */,
+				84887AD029ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31FF0AA9EBCB44641B2B3342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B05B894D28C4AFD700A88C47 /* StoreKit.framework */,
+				B09AA0FB28C4A8C6004CF2F8 /* Pods_The_Breathe_Yoga.framework */,
+				B09AA0F728C4A8B8004CF2F8 /* Pods_The_Breathe_Yoga.framework */,
+				5CCB54B3266F83C80086BB97 /* AudioToolbox.framework */,
+				5AF43D94262BF4C74117D5A9 /* Pods_The_Breathe_Yoga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C02EBFA2691994E0063A7EF /* ListData */ = {
+			isa = PBXGroup;
+			children = (
+				5C4AD18E26767E2700B8178D /* ListVC.swift */,
+				5C301FAC268CD8050066CFD8 /* PDFReaderVC.swift */,
+				5C02EBFB269199680063A7EF /* HeaderView */,
+			);
+			path = ListData;
+			sourceTree = "<group>";
+		};
+		5C02EBFB269199680063A7EF /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				5C02EBFC269199830063A7EF /* Header.xib */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
+		5C1629DD266D3C0600220285 /* Breath */ = {
+			isa = PBXGroup;
+			children = (
+				5C1629DE266D3C3400220285 /* HowToBreath.swift */,
+				5C4832D4266D4DD800DB50B7 /* BreathVC.swift */,
+				5CCB54B5266F8B590086BB97 /* BreatheDetailsVC.swift */,
+			);
+			path = Breath;
+			sourceTree = "<group>";
+		};
+		5C365DE0267E0E08006CC538 /* Htmls */ = {
+			isa = PBXGroup;
+			children = (
+				5CE7C0D0267E1440008AD3EA /* zero.html */,
+				5CE7C0D2267E1C82008AD3EA /* one.html */,
+				5CE7C0D4267E1DD3008AD3EA /* three.html */,
+				5CE7C0D6267E1DFA008AD3EA /* four.html */,
+			);
+			path = Htmls;
+			sourceTree = "<group>";
+		};
+		5C389C53266A4AC000211754 /* Pulse */ = {
+			isa = PBXGroup;
+			children = (
+				5C389C71266A4B6200211754 /* Utilities */,
+				5C389C70266A4B5700211754 /* Extensions */,
+				5C389C6F266A4B4000211754 /* Managers */,
+				5C389C6E266A4B3300211754 /* Pulse Detectoer Helpers */,
+			);
+			path = Pulse;
+			sourceTree = "<group>";
+		};
+		5C389C6E266A4B3300211754 /* Pulse Detectoer Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5C389C78266A4B9800211754 /* PulseDetector.swift */,
+				5C389C7A266A4BA800211754 /* Filter.swift */,
+			);
+			path = "Pulse Detectoer Helpers";
+			sourceTree = "<group>";
+		};
+		5C389C6F266A4B4000211754 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5C389C76266A4B8800211754 /* HeartRateManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5C389C70266A4B5700211754 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C389C74266A4B8200211754 /* AVCaptureDevice+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C389C71266A4B6200211754 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5C389C72266A4B7C00211754 /* ColorUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5C77703926A2E3A3001C0B7D /* SPO2_New */ = {
+			isa = PBXGroup;
+			children = (
+				5C77703A26A2E3DA001C0B7D /* HowToSPO2_New.swift */,
+				5C77703C26A2EA30001C0B7D /* DisclaimerVC_New.swift */,
+				5C77703E26A321B3001C0B7D /* SelectDeviceVC.swift */,
+			);
+			path = SPO2_New;
+			sourceTree = "<group>";
+		};
+		5C9DD443267D19A80091D592 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5CCAA59E2669239900FD902D /* mainCell.swift */,
+				5C9DD444267D19FF0091D592 /* imageViewCell.swift */,
+				84BD8ACB291F9590000D7D82 /* mainCellYoga.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5CB54DCF266B62AD00969E47 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				5CFE6D202668BF2D00F01AE8 /* ViewController.swift */,
+				5C9DD441267D18430091D592 /* Explore.swift */,
+				5C365DE3267E0ED7006CC538 /* ExploreWebview.swift */,
+				B00BC0572905436700736E74 /* Music */,
+				5C02EBFA2691994E0063A7EF /* ListData */,
+				5CE7C0E0267FB981008AD3EA /* Welcome */,
+				5CE7C0D9267E6755008AD3EA /* InApp */,
+				5C77703926A2E3A3001C0B7D /* SPO2_New */,
+				5CB54DD4266B95DA00969E47 /* HeartRate */,
+				B009346B28E9D32F00CEF543 /* Ujjayi */,
+				5CB54DD5266B95F800969E47 /* SPO2 */,
+				B00419CF28D772790082024B /* Anuloma */,
+				5C1629DD266D3C0600220285 /* Breath */,
+				B02E049B28D10EF50036223F /* Sama Vritti */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		5CB54DD4266B95DA00969E47 /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				5C389C4F266A1EBF00211754 /* howToMeasure.swift */,
+				5C389C51266A1FA500211754 /* heartRateVC.swift */,
+				5CB54DD0266B633D00969E47 /* hearRateDeatailsVC.swift */,
+			);
+			path = HeartRate;
+			sourceTree = "<group>";
+		};
+		5CB54DD5266B95F800969E47 /* SPO2 */ = {
+			isa = PBXGroup;
+			children = (
+				5CB54DD2266B708300969E47 /* HowToSpo2.swift */,
+				5CB54DD6266B998600969E47 /* DisclaimerVC.swift */,
+				5CB54DD8266BA75700969E47 /* BearthSPO2.swift */,
+				5CFFC8C4266BE961002DE727 /* Spo2DeatilsVC.swift */,
+			);
+			path = SPO2;
+			sourceTree = "<group>";
+		};
+		5CE7C0D9267E6755008AD3EA /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D142A26961AF70082A2A8 /* InAppPurchases.xib */,
+				5CE7C0DA267E679D008AD3EA /* InAppPurchases.swift */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		5CE7C0E0267FB981008AD3EA /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				5CE7C0E1267FB995008AD3EA /* Welcome.swift */,
+				5CE7C0E2267FB995008AD3EA /* Welcome.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		5CFE6D102668BF2D00F01AE8 = {
+			isa = PBXGroup;
+			children = (
+				84887ACC29ADE62E0072C71B /* GoogleService-Info.plist */,
+				B09E75B928D4D07000D04303 /* inhale.json */,
+				B086C32128C49CE5002E9F80 /* The Breathe Yoga.entitlements */,
+				5CFE6D1B2668BF2D00F01AE8 /* The Breathe Yoga */,
+				5CFE6D1A2668BF2D00F01AE8 /* Products */,
+				7DE59B442A3AC3E95C886FA1 /* Pods */,
+				31FF0AA9EBCB44641B2B3342 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CFE6D1A2668BF2D00F01AE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CFE6D192668BF2D00F01AE8 /* The Breathe Yoga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFE6D1B2668BF2D00F01AE8 /* The Breathe Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				B00BC05A290544D100736E74 /* Mp3s */,
+				B017F20628C50114005EC229 /* Breathe */,
+				B0EEF91C28C4AB900051B32F /* Info.plist */,
+				5C365DE0267E0E08006CC538 /* Htmls */,
+				5CB54DCF266B62AD00969E47 /* VCs */,
+				5C389C53266A4AC000211754 /* Pulse */,
+				5C9DD443267D19A80091D592 /* Cell */,
+				5CFE6D1C2668BF2D00F01AE8 /* AppDelegate.swift */,
+				5CFE6D222668BF2D00F01AE8 /* Main.storyboard */,
+				B0B3C91A28CC7B8700604A43 /* icon.png */,
+				5CFE6D252668BF3200F01AE8 /* Assets.xcassets */,
+				5C4AD1922677465000B8178D /* SQLmodel.swift */,
+				5C1629DB266CDE7D00220285 /* model.swift */,
+				5CFE6D272668BF3200F01AE8 /* LaunchScreen.storyboard */,
+				5C1629D7266CDBDF00220285 /* inhale.mp3 */,
+				B09E75B728D4C24900D04303 /* hold.mp3 */,
+				5C1629D8266CDBDF00220285 /* exhale.mp3 */,
+				5CC5B26E268211DA00CC356B /* UserDef.swift */,
+				5C92DD5526A4AD75005FA8C2 /* DatePickerDialog.swift */,
+				5C4AD1902676806400B8178D /* CustomSegment.swift */,
+				5C7DF14C26A6BDAC00E921C6 /* stateButton.swift */,
+			);
+			path = "The Breathe Yoga";
+			sourceTree = "<group>";
+		};
+		7DE59B442A3AC3E95C886FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AC8C7F9D75B7AA4832AB0F0 /* Pods-The Breathe Yoga.debug.xcconfig */,
+				307F6E4D4B298655DC84C8AA /* Pods-The Breathe Yoga.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B00419CF28D772790082024B /* Anuloma */ = {
+			isa = PBXGroup;
+			children = (
+				B00419D028D774B70082024B /* AnulomaVC.swift */,
+				B00EA02828E977F0007AD097 /* AnulomaHowto.swift */,
+				B00EA02A28E9786E007AD097 /* AnulomaBreatheVC.swift */,
+			);
+			path = Anuloma;
+			sourceTree = "<group>";
+		};
+		B009346B28E9D32F00CEF543 /* Ujjayi */ = {
+			isa = PBXGroup;
+			children = (
+				B009346D28E9D42E00CEF543 /* UjjayiVC.swift */,
+				B0D63D7428E9E00A006DCCC1 /* UjjayiHowto.swift */,
+				B0D63D7628E9E0B7006DCCC1 /* UjjayiBreatheVC.swift */,
+			);
+			path = Ujjayi;
+			sourceTree = "<group>";
+		};
+		B00BC0572905436700736E74 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B00BC0582905437D00736E74 /* MusicVC.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		B00BC05A290544D100736E74 /* Mp3s */ = {
+			isa = PBXGroup;
+			children = (
+				B00BC05B290544D100736E74 /* 0.mp3 */,
+				B00BC05C290544D100736E74 /* 1.mp3 */,
+				B00BC05D290544D100736E74 /* 2.mp3 */,
+				B00BC05E290544D100736E74 /* 3.mp3 */,
+				B00BC05F290544D100736E74 /* 4.mp3 */,
+				B00BC060290544D100736E74 /* 5.mp3 */,
+				B00BC06729054C2200736E74 /* 6.mp3 */,
+			);
+			path = Mp3s;
+			sourceTree = "<group>";
+		};
+		B017F20628C50114005EC229 /* Breathe */ = {
+			isa = PBXGroup;
+			children = (
+				B017F20728C50133005EC229 /* TimePickerVC.swift */,
+				B017F20828C50133005EC229 /* TimePickerVC.xib */,
+			);
+			path = Breathe;
+			sourceTree = "<group>";
+		};
+		B02E049B28D10EF50036223F /* Sama Vritti */ = {
+			isa = PBXGroup;
+			children = (
+				B02E049C28D10F1A0036223F /* SamaVrittiVC.swift */,
+				B09E75B528D4BCF200D04303 /* SameBreatheVC.swift */,
+				B00419CD28D771970082024B /* SamaBretheDetailsVC.swift */,
+			);
+			path = "Sama Vritti";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CFE6D182668BF2D00F01AE8 /* The Breathe Yoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFE6D2D2668BF3200F01AE8 /* Build configuration list for PBXNativeTarget "The Breathe Yoga" */;
+			buildPhases = (
+				F2F2DCADF3DEC5EC01AC512A /* [CP] Check Pods Manifest.lock */,
+				5CFE6D152668BF2D00F01AE8 /* Sources */,
+				5CFE6D162668BF2D00F01AE8 /* Frameworks */,
+				5CFE6D172668BF2D00F01AE8 /* Resources */,
+				8D040301F5EC3F84F26EA43F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Breathe Yoga";
+			packageProductDependencies = (
+				84887ACF29ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
+			productName = "Blood Oxygen Level App";
+			productReference = 5CFE6D192668BF2D00F01AE8 /* The Breathe Yoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CFE6D112668BF2D00F01AE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5CFE6D182668BF2D00F01AE8 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 5CFE6D142668BF2D00F01AE8 /* Build configuration list for PBXProject "The Breathe Yoga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CFE6D102668BF2D00F01AE8;
+			packageReferences = (
+				84887ACE29ADE6E10072C71B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5CFE6D1A2668BF2D00F01AE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFE6D182668BF2D00F01AE8 /* The Breathe Yoga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CFE6D172668BF2D00F01AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00BC066290544D100736E74 /* 5.mp3 in Resources */,
+				5CFE6D292668BF3200F01AE8 /* LaunchScreen.storyboard in Resources */,
+				5C1629D9266CDBDF00220285 /* inhale.mp3 in Resources */,
+				5C02EBFD269199830063A7EF /* Header.xib in Resources */,
+				5C1D142B26961AF70082A2A8 /* InAppPurchases.xib in Resources */,
+				B00BC06829054C2200736E74 /* 6.mp3 in Resources */,
+				B00BC062290544D100736E74 /* 1.mp3 in Resources */,
+				5CE7C0E4267FB995008AD3EA /* Welcome.xib in Resources */,
+				B017F20A28C50133005EC229 /* TimePickerVC.xib in Resources */,
+				B00BC064290544D100736E74 /* 3.mp3 in Resources */,
+				5C1629DA266CDBDF00220285 /* exhale.mp3 in Resources */,
+				5CE7C0D7267E1DFA008AD3EA /* four.html in Resources */,
+				B00BC065290544D100736E74 /* 4.mp3 in Resources */,
+				B0B3C91B28CC7B8700604A43 /* icon.png in Resources */,
+				5CFE6D262668BF3200F01AE8 /* Assets.xcassets in Resources */,
+				B00BC061290544D100736E74 /* 0.mp3 in Resources */,
+				5CE7C0D1267E1440008AD3EA /* zero.html in Resources */,
+				84887ACD29ADE62E0072C71B /* GoogleService-Info.plist in Resources */,
+				B09E75B828D4C24900D04303 /* hold.mp3 in Resources */,
+				B00BC063290544D100736E74 /* 2.mp3 in Resources */,
+				5CE7C0D5267E1DD3008AD3EA /* three.html in Resources */,
+				5CE7C0D3267E1C82008AD3EA /* one.html in Resources */,
+				5CFE6D242668BF2D00F01AE8 /* Main.storyboard in Resources */,
+				B09E75BA28D4D07000D04303 /* inhale.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D040301F5EC3F84F26EA43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F2DCADF3DEC5EC01AC512A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Breathe Yoga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFE6D152668BF2D00F01AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C389C79266A4B9800211754 /* PulseDetector.swift in Sources */,
+				5CE7C0DC267E679D008AD3EA /* InAppPurchases.swift in Sources */,
+				B00419D128D774B70082024B /* AnulomaVC.swift in Sources */,
+				5C389C7B266A4BA800211754 /* Filter.swift in Sources */,
+				5C4AD1912676806400B8178D /* CustomSegment.swift in Sources */,
+				B00BC0592905437D00736E74 /* MusicVC.swift in Sources */,
+				5C389C50266A1EBF00211754 /* howToMeasure.swift in Sources */,
+				5CCB54B6266F8B590086BB97 /* BreatheDetailsVC.swift in Sources */,
+				5CC5B26F268211DA00CC356B /* UserDef.swift in Sources */,
+				B0D63D7528E9E00A006DCCC1 /* UjjayiHowto.swift in Sources */,
+				5C9DD442267D18430091D592 /* Explore.swift in Sources */,
+				5C77703B26A2E3DA001C0B7D /* HowToSPO2_New.swift in Sources */,
+				5CFFC8C5266BE961002DE727 /* Spo2DeatilsVC.swift in Sources */,
+				B0D63D7728E9E0B8006DCCC1 /* UjjayiBreatheVC.swift in Sources */,
+				5CB54DD3266B708300969E47 /* HowToSpo2.swift in Sources */,
+				5C77703D26A2EA30001C0B7D /* DisclaimerVC_New.swift in Sources */,
+				84BD8ACC291F9590000D7D82 /* mainCellYoga.swift in Sources */,
+				5CB54DD7266B998600969E47 /* DisclaimerVC.swift in Sources */,
+				5C4832D5266D4DD800DB50B7 /* BreathVC.swift in Sources */,
+				B09E75B628D4BCF200D04303 /* SameBreatheVC.swift in Sources */,
+				5C389C52266A1FA500211754 /* heartRateVC.swift in Sources */,
+				5C1629DC266CDE7D00220285 /* model.swift in Sources */,
+				5CFE6D212668BF2D00F01AE8 /* ViewController.swift in Sources */,
+				B017F20928C50133005EC229 /* TimePickerVC.swift in Sources */,
+				5C7DF14D26A6BDAC00E921C6 /* stateButton.swift in Sources */,
+				5C365DE4267E0ED7006CC538 /* ExploreWebview.swift in Sources */,
+				B00419CE28D771970082024B /* SamaBretheDetailsVC.swift in Sources */,
+				5CB54DD9266BA75700969E47 /* BearthSPO2.swift in Sources */,
+				5C389C75266A4B8200211754 /* AVCaptureDevice+Extensions.swift in Sources */,
+				B02E049D28D10F1A0036223F /* SamaVrittiVC.swift in Sources */,
+				5C1629DF266D3C3400220285 /* HowToBreath.swift in Sources */,
+				5C9DD445267D19FF0091D592 /* imageViewCell.swift in Sources */,
+				5C301FAD268CD8050066CFD8 /* PDFReaderVC.swift in Sources */,
+				5CE7C0E3267FB995008AD3EA /* Welcome.swift in Sources */,
+				B00EA02B28E9786E007AD097 /* AnulomaBreatheVC.swift in Sources */,
+				5C77703F26A321B3001C0B7D /* SelectDeviceVC.swift in Sources */,
+				5C389C77266A4B8800211754 /* HeartRateManager.swift in Sources */,
+				5C4AD1932677465000B8178D /* SQLmodel.swift in Sources */,
+				5C389C73266A4B7C00211754 /* ColorUtils.swift in Sources */,
+				5C4AD18F26767E2700B8178D /* ListVC.swift in Sources */,
+				B00EA02928E977F0007AD097 /* AnulomaHowto.swift in Sources */,
+				5C92DD5626A4AD75005FA8C2 /* DatePickerDialog.swift in Sources */,
+				5CCAA59F2669239900FD902D /* mainCell.swift in Sources */,
+				5CB54DD1266B633D00969E47 /* hearRateDeatailsVC.swift in Sources */,
+				B009346E28E9D42E00CEF543 /* UjjayiVC.swift in Sources */,
+				5CFE6D1D2668BF2D00F01AE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CFE6D222668BF2D00F01AE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFE6D232668BF2D00F01AE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CFE6D272668BF3200F01AE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFE6D282668BF3200F01AE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CFE6D2B2668BF3200F01AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CFE6D2C2668BF3200F01AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CFE6D2E2668BF3200F01AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC8C7F9D75B7AA4832AB0F0 /* Pods-The Breathe Yoga.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = 959YZPX78D;
+				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Yoga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Breathe.Yoga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5CFE6D2F2668BF3200F01AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307F6E4D4B298655DC84C8AA /* Pods-The Breathe Yoga.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = 959YZPX78D;
+				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Yoga;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Breathe.Yoga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CFE6D142668BF2D00F01AE8 /* Build configuration list for PBXProject "The Breathe Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFE6D2B2668BF3200F01AE8 /* Debug */,
+				5CFE6D2C2668BF3200F01AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFE6D2D2668BF3200F01AE8 /* Build configuration list for PBXNativeTarget "The Breathe Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFE6D2E2668BF3200F01AE8 /* Debug */,
+				5CFE6D2F2668BF3200F01AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84887ACE29ADE6E10072C71B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84887ACF29ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84887ACE29ADE6E10072C71B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CFE6D112668BF2D00F01AE8 /* Project object */;
+}
