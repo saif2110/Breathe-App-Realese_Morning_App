@@ -85,9 +85,7 @@ class ViewController: UIViewController {
     
     @IBAction func upgrade(_ sender: Any) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-            let vc  = InAppPurchases()
-            vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true, completion: nil)
+            RevenuCatPaywall.shared.showpayWall()
         }
     }
     
@@ -114,9 +112,7 @@ class ViewController: UIViewController {
         }else{
             if !UserDefaults.standard.isProMember() {
                 DispatchQueue.main.asyncAfter(deadline: .now()) {
-                    let vc  = InAppPurchases()
-                    vc.modalPresentationStyle = .fullScreen
-                    self.present(vc, animated: true, completion: nil)
+                    RevenuCatPaywall.shared.showpayWall()
                 }
             }
         }
@@ -153,9 +149,7 @@ class ViewController: UIViewController {
         }else{
             
             
-            let vc = InAppPurchases()
-            vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true)
+            RevenuCatPaywall.shared.showpayWall()
             
         }
         
@@ -172,9 +166,7 @@ class ViewController: UIViewController {
         }else{
             
             
-            let vc = InAppPurchases()
-            vc.modalPresentationStyle = .fullScreen
-            self.present(vc, animated: true)
+            RevenuCatPaywall.shared.showpayWall()
             
         }
     }

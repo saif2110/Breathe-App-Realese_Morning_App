@@ -125,9 +125,7 @@ class ListVC: UIViewController {
             openExport()
         }else{
             DispatchQueue.main.asyncAfter(deadline: .now()+0.1) {
-                let vc  = InAppPurchases()
-                vc.modalPresentationStyle = .fullScreen
-                self.present(vc, animated: true, completion: nil)
+                RevenuCatPaywall.shared.showpayWall()
             }
         }
         

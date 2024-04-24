@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -54,6 +54,9 @@
 		5CFE6D262668BF3200F01AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D252668BF3200F01AE8 /* Assets.xcassets */; };
 		5CFE6D292668BF3200F01AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D272668BF3200F01AE8 /* LaunchScreen.storyboard */; };
 		5CFFC8C5266BE961002DE727 /* Spo2DeatilsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFC8C4266BE961002DE727 /* Spo2DeatilsVC.swift */; };
+		6ADE2B752BD67F1D00CF82FE /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = 6ADE2B742BD67F1D00CF82FE /* ReceiptParser */; };
+		6ADE2B772BD67F1D00CF82FE /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 6ADE2B762BD67F1D00CF82FE /* RevenueCat */; };
+		6ADE2B792BD67F1D00CF82FE /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6ADE2B782BD67F1D00CF82FE /* RevenueCatUI */; };
 		84887ACD29ADE62E0072C71B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84887ACC29ADE62E0072C71B /* GoogleService-Info.plist */; };
 		84887AD029ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 84887ACF29ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		84BD8ACC291F9590000D7D82 /* mainCellYoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD8ACB291F9590000D7D82 /* mainCellYoga.swift */; };
@@ -173,8 +176,11 @@
 			files = (
 				B05B894E28C4AFD700A88C47 /* StoreKit.framework in Frameworks */,
 				B09AA0FC28C4A8C6004CF2F8 /* Pods_The_Breathe_Yoga.framework in Frameworks */,
+				6ADE2B792BD67F1D00CF82FE /* RevenueCatUI in Frameworks */,
+				6ADE2B772BD67F1D00CF82FE /* RevenueCat in Frameworks */,
 				5CCB54B4266F83C80086BB97 /* AudioToolbox.framework in Frameworks */,
 				84887AD029ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				6ADE2B752BD67F1D00CF82FE /* ReceiptParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +501,9 @@
 			name = "The Breathe Yoga";
 			packageProductDependencies = (
 				84887ACF29ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport */,
+				6ADE2B742BD67F1D00CF82FE /* ReceiptParser */,
+				6ADE2B762BD67F1D00CF82FE /* RevenueCat */,
+				6ADE2B782BD67F1D00CF82FE /* RevenueCatUI */,
 			);
 			productName = "Blood Oxygen Level App";
 			productReference = 5CFE6D192668BF2D00F01AE8 /* The Breathe Yoga.app */;
@@ -526,6 +535,7 @@
 			mainGroup = 5CFE6D102668BF2D00F01AE8;
 			packageReferences = (
 				84887ACE29ADE6E10072C71B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6ADE2B732BD67F1D00CF82FE /* XCRemoteSwiftPackageReference "purchases-ios" */,
 			);
 			productRefGroup = 5CFE6D1A2668BF2D00F01AE8 /* Products */;
 			projectDirPath = "";
@@ -819,7 +829,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Yoga;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -851,7 +861,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Yoga;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -891,6 +901,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6ADE2B732BD67F1D00CF82FE /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.41.0;
+			};
+		};
 		84887ACE29ADE6E10072C71B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -902,6 +920,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6ADE2B742BD67F1D00CF82FE /* ReceiptParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ADE2B732BD67F1D00CF82FE /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = ReceiptParser;
+		};
+		6ADE2B762BD67F1D00CF82FE /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ADE2B732BD67F1D00CF82FE /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		6ADE2B782BD67F1D00CF82FE /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ADE2B732BD67F1D00CF82FE /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCatUI;
+		};
 		84887ACF29ADE6E10072C71B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 84887ACE29ADE6E10072C71B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

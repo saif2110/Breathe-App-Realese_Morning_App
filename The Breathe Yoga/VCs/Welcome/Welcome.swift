@@ -21,12 +21,7 @@ class Welcome: UIViewController {
         dismiss(animated: true) {
             DispatchQueue.main.async {
               
-                if let topController =
-                    UIApplication.topViewController() {
-                    let vc  = InAppPurchases()
-                    vc.modalPresentationStyle = .fullScreen
-                    topController.present(vc, animated: true, completion: nil)
-                }
+                RevenuCatPaywall.shared.showpayWall()
                 
             }
         }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,7 +24,7 @@
                     <rect key="frame" x="30" y="417" width="330" height="407"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMb-Y0-82k">
-                            <rect key="frame" x="4" y="297" width="322" height="50"/>
+                            <rect key="frame" x="0.0" y="297" width="330" height="50"/>
                             <color key="backgroundColor" red="0.3921568627" green="0.52156862749999999" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="zOX-cy-wQo"/>
@@ -38,11 +38,11 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGi-aI-4bM">
-                            <rect key="frame" x="8" y="10" width="314" height="96.666666666666671"/>
+                            <rect key="frame" x="8" y="10" width="314" height="104"/>
                             <string key="text">Breathe Yoga is a practice that emphasizes the connection between breath and movement.
 
 Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, and emotional well-being. 🧘</string>
-                            <fontDescription key="fontDescription" type="system" pointSize="13.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
                             <color key="textColor" red="0.076262362299999997" green="0.1070805863" blue="0.13937318330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -50,10 +50,10 @@ Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, a
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="hGi-aI-4bM" secondAttribute="trailing" constant="8" id="8xD-q6-aO2"/>
-                        <constraint firstItem="FMb-Y0-82k" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" constant="4" id="GBd-uK-a8u"/>
+                        <constraint firstItem="FMb-Y0-82k" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" id="GBd-uK-a8u"/>
                         <constraint firstItem="hGi-aI-4bM" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" constant="8" id="Xic-5R-udy"/>
                         <constraint firstAttribute="bottom" secondItem="FMb-Y0-82k" secondAttribute="bottom" constant="60" id="jgK-77-bWw"/>
-                        <constraint firstAttribute="trailing" secondItem="FMb-Y0-82k" secondAttribute="trailing" constant="4" id="sxz-Hd-1Fg"/>
+                        <constraint firstAttribute="trailing" secondItem="FMb-Y0-82k" secondAttribute="trailing" id="sxz-Hd-1Fg"/>
                         <constraint firstItem="hGi-aI-4bM" firstAttribute="top" secondItem="KDe-CB-wlz" secondAttribute="top" constant="10" id="ueu-51-AUI"/>
                     </constraints>
                 </view>

@@ -8,7 +8,7 @@ target 'The Breathe Yoga' do
   # Pods for The Breathe Yoga
 pod 'MBCircularProgressBar'
 pod 'SQLite.swift'
-pod 'Purchases'
+#pod 'Purchases'
 pod 'PDFGenerator'
 pod 'IQKeyboardManagerSwift'
 pod 'DateTimePicker', '~> 2.5'
