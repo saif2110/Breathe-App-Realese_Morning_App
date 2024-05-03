@@ -137,6 +137,21 @@ class ViewController: UIViewController {
         //}
         
     }
+    @IBAction func showKapalbharti(_ sender: Any) {
+        if UserDefaults.standard.isProMember() {
+            
+            let Main = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let vc = Main.instantiateViewController(identifier: "HowToBreath") as! HowToBreath
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: true)
+            
+        }else{
+            
+            
+            RevenuCatPaywall.shared.showpayWall()
+            
+        }
+    }
     
     @IBAction func showUjjayi(_ sender: Any) {
         if UserDefaults.standard.isProMember() {
@@ -178,6 +193,8 @@ class ViewController: UIViewController {
 //        `let but3Image = UserDefaults.standard.isProMember() ? #imageLiteral(resourceName: "anuloma") :  #imageLiteral(resourceName: "anuloma_pro.png")
 //        but3.setImage(but3Image, for: .normal)`
         
+        let but1Image = UserDefaults.standard.isProMember() ? #imageLiteral(resourceName: "family") :  #imageLiteral(resourceName: "kapal_pro")
+        but1.setImage(but1Image, for: .normal)
         
         let but4Image = UserDefaults.standard.isProMember() ? #imageLiteral(resourceName: "ujjayi") :  #imageLiteral(resourceName: "ujjayi_pro")
         but4.setImage(but4Image, for: .normal)

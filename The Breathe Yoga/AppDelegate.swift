@@ -13,6 +13,7 @@ import RevenueCatUI
 import IQKeyboardManagerSwift
 import Firebase
 import FirebaseCore
+import GoogleMobileAds
 
 let DarkColor = #colorLiteral(red: 0.8497030139, green: 0.3857004344, blue: 0.2624953985, alpha: 1)
 let LightColor = #colorLiteral(red: 1, green: 0.8345591559, blue: 0.780843773, alpha: 0.3)
@@ -37,6 +38,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         isUserActive()
         
         IQKeyboardManager.shared.enable = true
+        
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         
         //mockData()
         
@@ -376,6 +379,49 @@ class RevenuCatPaywall:PaywallViewControllerDelegate {
         if let topController =
             UIApplication.topViewController() {
             topController.present(myAlt(titel:"Congratulations !",message:"You are a pro member now. Enjoy seamless experience with all features unlock."), animated: true, completion: nil)
+        }
+    }
+    
+}
+
+
+class GoogleAdsClass {
+    
+    static var shared = GoogleAdsClass()
+    
+    private var interstitial: GADInterstitialAd?
+    
+    private func loadAds() async {
+        
+        guard !UserDefaults.standard.isProMember() else {return}
+        
+        do {
+            interstitial = try await GADInterstitialAd.load(
+                withAdUnitID: "ca-app-pub-3940256099942544/4411468910", request: GADRequest())
+        } catch {
+            print("Failed to load interstitial ad with error: \(error.localizedDescription)")
+        }
+        showAds()
+    }
+    
+    
+    private func showAds() {
+        guard let interstitial = interstitial else {
+            return print("Ad wasn't ready.")
+        }
+        
+        DispatchQueue.main.async {
+            if let topController =
+                UIApplication.topViewController() {
+                interstitial.present(fromRootViewController: topController)
+            }
+        }
+        
+    }
+    
+    func presentAds() {
+        Task {
+            await loadAds()
         }
     }
     

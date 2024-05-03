@@ -22,6 +22,8 @@ class howToMeasure: UIViewController {
                                                selector: #selector(readyforSPO2),
                                                name: NSNotification.Name("readyforSPO2"),
                                                object: nil)
+        
+        GoogleAdsClass.shared.presentAds()
     }
   @IBAction func openProof(_ sender: Any) {
     

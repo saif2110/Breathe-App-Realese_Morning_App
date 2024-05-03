@@ -18,6 +18,7 @@ class HowToBreath: UIViewController {
         let generator = UINotificationFeedbackGenerator()
         generator.notificationOccurred(.success)
         nextButton.layer.cornerRadius = nextButton.bounds.height/2
+        GoogleAdsClass.shared.presentAds()
     }
     
     @IBAction func close(_ sender: Any) {
@@ -28,5 +29,6 @@ class HowToBreath: UIViewController {
     UIApplication.shared.open(URL(string: "https://www.artofliving.org/in-en/yoga/breathing-techniques/skull-shining-breath-kapal-bhati")!)
     
   }
+
   
 }

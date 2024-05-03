@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,48 +20,11 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDe-CB-wlz">
-                    <rect key="frame" x="30" y="417" width="330" height="407"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMb-Y0-82k">
-                            <rect key="frame" x="0.0" y="297" width="330" height="50"/>
-                            <color key="backgroundColor" red="0.3921568627" green="0.52156862749999999" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="50" id="zOX-cy-wQo"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                            <state key="normal" title="Continue">
-                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </state>
-                            <connections>
-                                <action selector="close:" destination="-1" eventType="touchUpInside" id="Cwb-dR-hMj"/>
-                            </connections>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGi-aI-4bM">
-                            <rect key="frame" x="8" y="10" width="314" height="104"/>
-                            <string key="text">Breathe Yoga is a practice that emphasizes the connection between breath and movement.
-
-Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, and emotional well-being. 🧘</string>
-                            <fontDescription key="fontDescription" type="system" pointSize="14.5"/>
-                            <color key="textColor" red="0.076262362299999997" green="0.1070805863" blue="0.13937318330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="trailing" secondItem="hGi-aI-4bM" secondAttribute="trailing" constant="8" id="8xD-q6-aO2"/>
-                        <constraint firstItem="FMb-Y0-82k" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" id="GBd-uK-a8u"/>
-                        <constraint firstItem="hGi-aI-4bM" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" constant="8" id="Xic-5R-udy"/>
-                        <constraint firstAttribute="bottom" secondItem="FMb-Y0-82k" secondAttribute="bottom" constant="60" id="jgK-77-bWw"/>
-                        <constraint firstAttribute="trailing" secondItem="FMb-Y0-82k" secondAttribute="trailing" id="sxz-Hd-1Fg"/>
-                        <constraint firstItem="hGi-aI-4bM" firstAttribute="top" secondItem="KDe-CB-wlz" secondAttribute="top" constant="10" id="ueu-51-AUI"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQi-ys-wLG">
-                    <rect key="frame" x="30" y="10" width="330" height="407"/>
+                    <rect key="frame" x="30" y="10" width="330" height="404.66666666666669"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="u86-bQ-hvS">
-                            <rect key="frame" x="8" y="303.33333333333331" width="314" height="99.666666666666686"/>
+                            <rect key="frame" x="8" y="300.66666666666669" width="314" height="100"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="u86-bQ-hvS" secondAttribute="height" multiplier="346:110" id="Rkg-bn-c3s"/>
                             </constraints>
@@ -88,7 +51,7 @@ Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, a
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_1024" translatesAutoresizingMaskIntoConstraints="NO" id="0bO-fC-EVy">
-                            <rect key="frame" x="0.0" y="214.33333333333337" width="90" height="85"/>
+                            <rect key="frame" x="0.0" y="211.66666666666666" width="90" height="84.999999999999972"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="85" id="7t6-bA-vIZ"/>
                                 <constraint firstAttribute="width" constant="90" id="Hwp-xK-CF2"/>
@@ -109,6 +72,43 @@ Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, a
                         <constraint firstItem="u86-bQ-hvS" firstAttribute="leading" secondItem="AQi-ys-wLG" secondAttribute="leading" constant="8" id="saX-2Y-4lA"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDe-CB-wlz">
+                    <rect key="frame" x="30" y="414.66666666666674" width="330" height="404.33333333333326"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMb-Y0-82k">
+                            <rect key="frame" x="0.0" y="304.33333333333331" width="330" height="50"/>
+                            <color key="backgroundColor" red="0.3921568627" green="0.52156862749999999" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="zOX-cy-wQo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <state key="normal" title="Continue">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="close:" destination="-1" eventType="touchUpInside" id="Cwb-dR-hMj"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGi-aI-4bM">
+                            <rect key="frame" x="8" y="10" width="314" height="133.66666666666666"/>
+                            <string key="text">Breathe Yoga is a practice that emphasizes the connection between breath and movement.
+
+Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, and emotional well-being. 🧘</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.076262362299999997" green="0.1070805863" blue="0.13937318330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="hGi-aI-4bM" secondAttribute="trailing" constant="8" id="8xD-q6-aO2"/>
+                        <constraint firstItem="FMb-Y0-82k" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" id="GBd-uK-a8u"/>
+                        <constraint firstItem="hGi-aI-4bM" firstAttribute="leading" secondItem="KDe-CB-wlz" secondAttribute="leading" constant="8" id="Xic-5R-udy"/>
+                        <constraint firstAttribute="bottom" secondItem="FMb-Y0-82k" secondAttribute="bottom" constant="50" id="jgK-77-bWw"/>
+                        <constraint firstAttribute="trailing" secondItem="FMb-Y0-82k" secondAttribute="trailing" id="sxz-Hd-1Fg"/>
+                        <constraint firstItem="hGi-aI-4bM" firstAttribute="top" secondItem="KDe-CB-wlz" secondAttribute="top" constant="10" id="ueu-51-AUI"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -116,7 +116,7 @@ Breathe Yoga offers a holistic approach to yoga, integrating physical, mental, a
                 <constraint firstItem="AQi-ys-wLG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="EMB-co-dzg"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AQi-ys-wLG" secondAttribute="trailing" constant="30" id="YGW-ih-UUB"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KDe-CB-wlz" secondAttribute="trailing" constant="30" id="Yma-xQ-hZP"/>
-                <constraint firstAttribute="bottom" secondItem="KDe-CB-wlz" secondAttribute="bottom" constant="20" id="cra-ok-qvR"/>
+                <constraint firstAttribute="bottom" secondItem="KDe-CB-wlz" secondAttribute="bottom" constant="25" id="cra-ok-qvR"/>
                 <constraint firstItem="KDe-CB-wlz" firstAttribute="height" secondItem="AQi-ys-wLG" secondAttribute="height" id="gRr-4r-oAp"/>
                 <constraint firstItem="KDe-CB-wlz" firstAttribute="width" secondItem="AQi-ys-wLG" secondAttribute="width" id="mkH-aC-vPN"/>
                 <constraint firstItem="KDe-CB-wlz" firstAttribute="top" secondItem="AQi-ys-wLG" secondAttribute="bottom" id="npN-rQ-DC1"/>

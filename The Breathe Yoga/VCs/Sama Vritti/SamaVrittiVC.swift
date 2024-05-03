@@ -18,6 +18,7 @@ class SamaVrittiVC: UIViewController {
         let generator = UINotificationFeedbackGenerator()
         generator.notificationOccurred(.success)
         nextButton.layer.cornerRadius = nextButton.bounds.height/2
+        GoogleAdsClass.shared.presentAds()
     }
     
     @IBAction func close(_ sender: Any) {

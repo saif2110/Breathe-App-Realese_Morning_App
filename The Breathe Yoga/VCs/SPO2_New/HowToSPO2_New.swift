@@ -23,7 +23,11 @@ class HowToSPO2_New: UIViewController {
                                                selector: #selector(SelectDeviceVCEnded),
                                                name: NSNotification.Name("SelectDeviceVCEnded"),
                                                object: nil)
+        
+        GoogleAdsClass.shared.presentAds()
+        
     }
+    
     
     
     @objc func SelectDeviceVCEnded() {
