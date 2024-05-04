@@ -54,6 +54,7 @@
 		5CFE6D262668BF3200F01AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D252668BF3200F01AE8 /* Assets.xcassets */; };
 		5CFE6D292668BF3200F01AE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFE6D272668BF3200F01AE8 /* LaunchScreen.storyboard */; };
 		5CFFC8C5266BE961002DE727 /* Spo2DeatilsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFC8C4266BE961002DE727 /* Spo2DeatilsVC.swift */; };
+		6A96E0202BE64BF000C18A0C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6A96E01F2BE64BF000C18A0C /* PrivacyInfo.xcprivacy */; };
 		6AA452312BD9698C00296CF7 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 6AA452302BD9698C00296CF7 /* GoogleMobileAds */; };
 		6ADE2B752BD67F1D00CF82FE /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = 6ADE2B742BD67F1D00CF82FE /* ReceiptParser */; };
 		6ADE2B772BD67F1D00CF82FE /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 6ADE2B762BD67F1D00CF82FE /* RevenueCat */; };
@@ -138,6 +139,7 @@
 		5CFE6D252668BF3200F01AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CFE6D282668BF3200F01AE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CFFC8C4266BE961002DE727 /* Spo2DeatilsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spo2DeatilsVC.swift; sourceTree = "<group>"; };
+		6A96E01F2BE64BF000C18A0C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6AC8C7F9D75B7AA4832AB0F0 /* Pods-The Breathe Yoga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Breathe Yoga.debug.xcconfig"; path = "Target Support Files/Pods-The Breathe Yoga/Pods-The Breathe Yoga.debug.xcconfig"; sourceTree = "<group>"; };
 		84887ACC29ADE62E0072C71B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		84BD8ACB291F9590000D7D82 /* mainCellYoga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCellYoga.swift; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 		5CFE6D102668BF2D00F01AE8 = {
 			isa = PBXGroup;
 			children = (
+				6A96E01F2BE64BF000C18A0C /* PrivacyInfo.xcprivacy */,
 				84887ACC29ADE62E0072C71B /* GoogleService-Info.plist */,
 				B09E75B928D4D07000D04303 /* inhale.json */,
 				B086C32128C49CE5002E9F80 /* The Breathe Yoga.entitlements */,
@@ -573,6 +576,7 @@
 				B00BC061290544D100736E74 /* 0.mp3 in Resources */,
 				5CE7C0D1267E1440008AD3EA /* zero.html in Resources */,
 				84887ACD29ADE62E0072C71B /* GoogleService-Info.plist in Resources */,
+				6A96E0202BE64BF000C18A0C /* PrivacyInfo.xcprivacy in Resources */,
 				B09E75B828D4C24900D04303 /* hold.mp3 in Resources */,
 				B00BC063290544D100736E74 /* 2.mp3 in Resources */,
 				5CE7C0D5267E1DD3008AD3EA /* three.html in Resources */,
@@ -828,7 +832,7 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Relax;
@@ -860,7 +864,7 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Relax;
