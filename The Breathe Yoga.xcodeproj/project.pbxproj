@@ -832,7 +832,7 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Relax;
@@ -864,7 +864,7 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Relax;
@@ -930,7 +930,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				minimumVersion = 10.25.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

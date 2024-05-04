@@ -397,7 +397,7 @@ class GoogleAdsClass {
         
         do {
             interstitial = try await GADInterstitialAd.load(
-                withAdUnitID: "ca-app-pub-3940256099942544/4411468910", request: GADRequest())
+                withAdUnitID: "ca-app-pub-2710347124980493/5056042983", request: GADRequest())
         } catch {
             print("Failed to load interstitial ad with error: \(error.localizedDescription)")
         }
