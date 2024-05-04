@@ -1109,7 +1109,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPD-Ey-sht">
-                                <rect key="frame" x="20" y="720" width="335" height="48"/>
+                                <rect key="frame" x="20" y="722" width="335" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="YnI-k3-hN6"/>
@@ -1123,13 +1123,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8r0-ER-07G">
-                                <rect key="frame" x="20" y="429" width="335" height="143.33333333333337"/>
+                                <rect key="frame" x="20" y="429" width="335" height="162.33333333333337"/>
                                 <string key="text">1) Place your phone's camera module on the wrist (as shown in image)
 
 2) Hold it till you get vibration feedback on phone. 
 
 3) Do not move your wrist, don't talk &amp; if possible close your eyes.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1140,7 +1140,7 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Xdj-6v-M2I">
-                                <rect key="frame" x="20" y="642.33333333333337" width="335" height="62.666666666666629"/>
+                                <rect key="frame" x="20" y="649.33333333333337" width="335" height="62.666666666666629"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The method we are using is to measure BPM is called Photoplethysmography. " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="upG-5s-Oeo">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="33.666666666666664"/>
@@ -1179,10 +1179,10 @@
                         <constraints>
                             <constraint firstItem="NTc-eC-Ewo" firstAttribute="trailing" secondItem="lPD-Ey-sht" secondAttribute="trailing" constant="20" id="BSN-x3-l3g"/>
                             <constraint firstItem="NTc-eC-Ewo" firstAttribute="trailing" secondItem="4Ok-0D-7Yr" secondAttribute="trailing" constant="20" id="CZ5-H6-B3x"/>
-                            <constraint firstItem="lPD-Ey-sht" firstAttribute="top" secondItem="Xdj-6v-M2I" secondAttribute="bottom" constant="15" id="JpO-Kk-JfY"/>
+                            <constraint firstItem="lPD-Ey-sht" firstAttribute="top" secondItem="Xdj-6v-M2I" secondAttribute="bottom" constant="10" id="JpO-Kk-JfY"/>
                             <constraint firstItem="c0K-aT-uXo" firstAttribute="leading" secondItem="epP-hh-Rui" secondAttribute="leading" id="KLI-eh-kOd"/>
                             <constraint firstItem="Xdj-6v-M2I" firstAttribute="leading" secondItem="NTc-eC-Ewo" secondAttribute="leading" constant="20" id="PUk-xE-nGQ"/>
-                            <constraint firstItem="NTc-eC-Ewo" firstAttribute="bottom" secondItem="lPD-Ey-sht" secondAttribute="bottom" constant="10" id="UgQ-fV-sUC"/>
+                            <constraint firstItem="NTc-eC-Ewo" firstAttribute="bottom" secondItem="lPD-Ey-sht" secondAttribute="bottom" constant="8" id="UgQ-fV-sUC"/>
                             <constraint firstAttribute="bottom" secondItem="c0K-aT-uXo" secondAttribute="bottom" id="WLR-ja-hfS"/>
                             <constraint firstItem="ySi-w1-zdl" firstAttribute="top" secondItem="uD9-am-stu" secondAttribute="bottom" constant="10" id="Yv3-X7-9L3"/>
                             <constraint firstItem="uD9-am-stu" firstAttribute="top" secondItem="4Ok-0D-7Yr" secondAttribute="bottom" id="ZdH-Sq-AAp"/>
@@ -2150,7 +2150,7 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MW4-8p-An7">
-                                <rect key="frame" x="20" y="710" width="335" height="48"/>
+                                <rect key="frame" x="20" y="722" width="335" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="ttN-I0-8av"/>
@@ -2164,7 +2164,7 @@ Cg
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SEM-vK-dUd">
-                                <rect key="frame" x="20" y="648" width="340" height="47"/>
+                                <rect key="frame" x="20" y="665" width="340" height="47"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Kapalbhati." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-uh-MZ1">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
@@ -2201,13 +2201,13 @@ Cg
                                 <rect key="frame" x="20" y="172.33333333333334" width="335" height="291.33333333333326"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Nfy-QX-pym">
-                                <rect key="frame" x="20" y="473.66666666666669" width="335" height="107.66666666666669"/>
+                                <rect key="frame" x="20" y="463.66666666666669" width="335" height="142.33333333333331"/>
                                 <string key="text">1. Close your eyes if possible
 
 2. Listen to inhale &amp; exhale sound carefully
 
 3. Repeat the inhale &amp; exhale with the sound until the sound stopped &amp; you feel vibration</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2222,12 +2222,12 @@ Cg
                             <constraint firstItem="Jic-vA-U5A" firstAttribute="leading" secondItem="crx-q6-0on" secondAttribute="leading" constant="20" id="Cg8-Hr-gqT"/>
                             <constraint firstItem="crx-q6-0on" firstAttribute="trailing" secondItem="Jic-vA-U5A" secondAttribute="trailing" constant="20" id="Hb1-wn-Vuf"/>
                             <constraint firstItem="SEM-vK-dUd" firstAttribute="leading" secondItem="crx-q6-0on" secondAttribute="leading" constant="20" id="Hvt-wg-mAB"/>
-                            <constraint firstItem="MW4-8p-An7" firstAttribute="top" secondItem="SEM-vK-dUd" secondAttribute="bottom" constant="15" id="Q6U-zL-FSd"/>
+                            <constraint firstItem="MW4-8p-An7" firstAttribute="top" secondItem="SEM-vK-dUd" secondAttribute="bottom" constant="10" id="Q6U-zL-FSd"/>
                             <constraint firstItem="Jic-vA-U5A" firstAttribute="top" secondItem="vo7-f7-UTb" secondAttribute="bottom" constant="30" id="QK1-rC-04C"/>
                             <constraint firstItem="vo7-f7-UTb" firstAttribute="leading" secondItem="crx-q6-0on" secondAttribute="leading" constant="20" id="QZe-CI-ZtW"/>
                             <constraint firstItem="Nfy-QX-pym" firstAttribute="leading" secondItem="crx-q6-0on" secondAttribute="leading" constant="20" id="ROK-R0-Rm1"/>
                             <constraint firstItem="crx-q6-0on" firstAttribute="trailing" secondItem="FBK-cv-g4h" secondAttribute="trailing" constant="20" id="SbW-rE-pf3"/>
-                            <constraint firstItem="Nfy-QX-pym" firstAttribute="top" secondItem="Jic-vA-U5A" secondAttribute="bottom" constant="10" id="VBB-cv-n90"/>
+                            <constraint firstItem="Nfy-QX-pym" firstAttribute="top" secondItem="Jic-vA-U5A" secondAttribute="bottom" id="VBB-cv-n90"/>
                             <constraint firstAttribute="trailing" secondItem="SEM-vK-dUd" secondAttribute="trailing" constant="15" id="WgS-f9-LbN"/>
                             <constraint firstItem="2Wo-tu-wE2" firstAttribute="trailing" secondItem="p05-KZ-sIT" secondAttribute="trailing" id="gbl-mz-TH0"/>
                             <constraint firstItem="MW4-8p-An7" firstAttribute="leading" secondItem="crx-q6-0on" secondAttribute="leading" constant="20" id="hZ9-g8-ely"/>
@@ -2235,7 +2235,7 @@ Cg
                             <constraint firstItem="crx-q6-0on" firstAttribute="trailing" secondItem="MW4-8p-An7" secondAttribute="trailing" constant="20" id="mS3-Sm-tna"/>
                             <constraint firstItem="Jic-vA-U5A" firstAttribute="height" secondItem="crx-q6-0on" secondAttribute="height" multiplier="0.4" id="nFx-BG-y2T"/>
                             <constraint firstItem="2Wo-tu-wE2" firstAttribute="top" secondItem="p05-KZ-sIT" secondAttribute="top" id="o4H-85-Ecg"/>
-                            <constraint firstItem="crx-q6-0on" firstAttribute="bottom" secondItem="MW4-8p-An7" secondAttribute="bottom" constant="20" id="of3-40-H3L"/>
+                            <constraint firstItem="crx-q6-0on" firstAttribute="bottom" secondItem="MW4-8p-An7" secondAttribute="bottom" constant="8" id="of3-40-H3L"/>
                             <constraint firstItem="FBK-cv-g4h" firstAttribute="top" secondItem="crx-q6-0on" secondAttribute="top" id="vAJ-eV-lmC"/>
                         </constraints>
                     </view>
@@ -3197,10 +3197,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-aG-ZTV">
-                                        <rect key="frame" x="117.66666666666666" y="51.666666666666629" width="108" height="61.333333333333343"/>
+                                        <rect key="frame" x="74.666666666666671" y="51.666666666666629" width="193.66666666666657" height="61.333333333333343"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TP8-kR-PBN" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="15.666666666666686" width="58" height="30"/>
+                                                <rect key="frame" x="0.0" y="11.666666666666686" width="101" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title=" Relaxed">
                                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3213,7 +3213,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-1j-Lp3" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="68" y="15.666666666666686" width="40" height="30"/>
+                                                <rect key="frame" x="110.99999999999997" y="11.666666666666686" width="82.666666666666657" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title=" Work">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3228,10 +3228,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hTj-b1-ixr">
-                                        <rect key="frame" x="90" y="103.00000000000001" width="163" height="61.666666666666671"/>
+                                        <rect key="frame" x="47.666666666666671" y="103.00000000000001" width="247.66666666666663" height="61.666666666666671"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpt-Sp-svN" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="15.999999999999943" width="72" height="30"/>
+                                                <rect key="frame" x="0.0" y="11.999999999999943" width="114.33333333333333" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Just Woke">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3244,7 +3244,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Kg-2y-8rh" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="82" y="15.999999999999943" width="81" height="30"/>
+                                                <rect key="frame" x="124.33333333333334" y="11.999999999999943" width="123.33333333333334" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title=" Sleep Time">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3259,10 +3259,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sbi-eB-yRW">
-                                        <rect key="frame" x="114.66666666666666" y="154.66666666666669" width="114" height="61.666666666666657"/>
+                                        <rect key="frame" x="72" y="154.66666666666669" width="199" height="61.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW6-be-PmN" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="16" width="61" height="30"/>
+                                                <rect key="frame" x="0.0" y="12" width="103.66666666666667" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Stressed">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3275,7 +3275,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cJ-Gh-chE" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="71" y="16" width="43" height="30"/>
+                                                <rect key="frame" x="113.66666666666666" y="12" width="85.333333333333343" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Active">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3290,10 +3290,10 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zHc-YG-OVA">
-                                        <rect key="frame" x="123" y="206.33333333333331" width="97" height="61.666666666666686"/>
+                                        <rect key="frame" x="80.666666666666671" y="206.33333333333331" width="181.66666666666663" height="61.666666666666686"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mT-ev-1HH" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="15.666666666666629" width="36" height="30"/>
+                                                <rect key="frame" x="0.0" y="11.666666666666629" width="78.333333333333329" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Tired">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3306,7 +3306,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wJ-Ch-5t1" customClass="stateButton" customModule="The_Breathe_Yoga" customModuleProvider="target">
-                                                <rect key="frame" x="46" y="15.666666666666629" width="51" height="30"/>
+                                                <rect key="frame" x="88.333333333333343" y="11.666666666666629" width="93.333333333333343" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" title="Hungry">
                                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -3412,7 +3412,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2s7-hS-7W6">
-                                <rect key="frame" x="20" y="744" width="335" height="48"/>
+                                <rect key="frame" x="20" y="754" width="335" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="TbT-RA-pHI"/>
@@ -3426,7 +3426,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Knf-0y-Cie">
-                                <rect key="frame" x="20" y="681" width="340" height="48"/>
+                                <rect key="frame" x="20" y="691" width="340" height="48"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing called Sama Vritti." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VEb-oD-3Br">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
@@ -3462,13 +3462,13 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 <rect key="frame" x="30" y="127.33333333333334" width="315" height="284.33333333333326"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mJt-6D-RnN">
-                                <rect key="frame" x="20" y="441.66666666666669" width="335" height="125.33333333333331"/>
+                                <rect key="frame" x="20" y="421.66666666666669" width="335" height="162.33333333333331"/>
                                 <string key="text">1. Close your eyes if possible
 
 2. Listen to  inhale, exhale &amp; hold sound carefully
 
 3. Repeat the inhale, exhale &amp; hold with the sound until the sound stopped &amp; you feel vibration</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -3476,7 +3476,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                         <viewLayoutGuide key="safeArea" id="Xac-KX-0zS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mJt-6D-RnN" firstAttribute="top" secondItem="cam-r5-sk3" secondAttribute="bottom" constant="30" id="1nQ-3v-Qms"/>
+                            <constraint firstItem="mJt-6D-RnN" firstAttribute="top" secondItem="cam-r5-sk3" secondAttribute="bottom" constant="10" id="1nQ-3v-Qms"/>
                             <constraint firstItem="fm6-Ke-aYC" firstAttribute="top" secondItem="Xac-KX-0zS" secondAttribute="top" id="6g4-D2-4xI"/>
                             <constraint firstItem="2s7-hS-7W6" firstAttribute="top" secondItem="Knf-0y-Cie" secondAttribute="bottom" constant="15" id="8jE-H7-Orf"/>
                             <constraint firstAttribute="bottom" secondItem="7xL-2S-GBJ" secondAttribute="bottom" id="8sa-Gb-CpH"/>
@@ -3491,7 +3491,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                             <constraint firstItem="Xac-KX-0zS" firstAttribute="trailing" secondItem="cam-r5-sk3" secondAttribute="trailing" constant="30" id="Rxs-lp-8Uk"/>
                             <constraint firstItem="cam-r5-sk3" firstAttribute="top" secondItem="JtB-c2-bVi" secondAttribute="bottom" constant="35" id="Sr7-pT-6lf"/>
                             <constraint firstItem="Xac-KX-0zS" firstAttribute="trailing" secondItem="fm6-Ke-aYC" secondAttribute="trailing" constant="20" id="VHF-OA-iPT"/>
-                            <constraint firstItem="Xac-KX-0zS" firstAttribute="bottom" secondItem="2s7-hS-7W6" secondAttribute="bottom" constant="20" id="axY-kD-1Z8"/>
+                            <constraint firstItem="Xac-KX-0zS" firstAttribute="bottom" secondItem="2s7-hS-7W6" secondAttribute="bottom" constant="10" id="axY-kD-1Z8"/>
                             <constraint firstItem="JtB-c2-bVi" firstAttribute="leading" secondItem="Xac-KX-0zS" secondAttribute="leading" constant="20" id="cQq-gF-C6K"/>
                             <constraint firstItem="Xac-KX-0zS" firstAttribute="trailing" secondItem="JtB-c2-bVi" secondAttribute="trailing" constant="20" id="fda-nd-rC1"/>
                             <constraint firstItem="Xac-KX-0zS" firstAttribute="trailing" secondItem="mJt-6D-RnN" secondAttribute="trailing" constant="20" id="jgH-mc-i0E"/>
@@ -3847,7 +3847,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PH2-Xq-Bjd">
-                                <rect key="frame" x="20" y="710" width="335" height="48"/>
+                                <rect key="frame" x="20" y="730" width="335" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="YnX-Kv-laH"/>
@@ -3861,7 +3861,7 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5uS-FI-xdO">
-                                <rect key="frame" x="20" y="647" width="340" height="48"/>
+                                <rect key="frame" x="20" y="672" width="340" height="48"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing called Anuloma." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ixE-bB-wMY">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
@@ -3897,13 +3897,13 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                                 <rect key="frame" x="30" y="177.33333333333337" width="315" height="233"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rrl-rl-cnv">
-                                <rect key="frame" x="20" y="440.33333333333331" width="335" height="125.33333333333331"/>
+                                <rect key="frame" x="20" y="425.33333333333331" width="335" height="162.33333333333331"/>
                                 <string key="text">1. Close your eyes if possible
 
 2. Listen to  inhale, exhale &amp; hold sound carefully
 
 3. Repeat the inhale, exhale &amp; hold with the sound until the sound stopped &amp; you feel vibration</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -3912,15 +3912,15 @@ We recommend doing this once a day. Ideal time is in morning &amp; before sleep.
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="XHX-cD-AGL" firstAttribute="trailing" secondItem="sk5-UX-pwG" secondAttribute="trailing" constant="20" id="0Am-Pa-lXr"/>
-                            <constraint firstItem="XHX-cD-AGL" firstAttribute="bottom" secondItem="PH2-Xq-Bjd" secondAttribute="bottom" constant="20" id="54i-Ii-eDN"/>
+                            <constraint firstItem="XHX-cD-AGL" firstAttribute="bottom" secondItem="PH2-Xq-Bjd" secondAttribute="bottom" id="54i-Ii-eDN"/>
                             <constraint firstItem="ad8-ek-hfG" firstAttribute="trailing" secondItem="SVH-dG-Ix5" secondAttribute="trailing" id="59w-kg-166"/>
                             <constraint firstItem="rrl-rl-cnv" firstAttribute="leading" secondItem="XHX-cD-AGL" secondAttribute="leading" constant="20" id="6Z8-hV-Dk4"/>
                             <constraint firstItem="XHX-cD-AGL" firstAttribute="trailing" secondItem="fS1-7v-5mQ" secondAttribute="trailing" constant="20" id="8I2-Om-v68"/>
                             <constraint firstItem="9kg-U2-bdI" firstAttribute="height" secondItem="XHX-cD-AGL" secondAttribute="height" multiplier="0.32" id="HRB-To-yRo"/>
                             <constraint firstItem="sk5-UX-pwG" firstAttribute="leading" secondItem="XHX-cD-AGL" secondAttribute="leading" constant="20" id="Hxj-zT-miL"/>
-                            <constraint firstItem="PH2-Xq-Bjd" firstAttribute="top" secondItem="5uS-FI-xdO" secondAttribute="bottom" constant="15" id="IJG-CY-hvO"/>
+                            <constraint firstItem="PH2-Xq-Bjd" firstAttribute="top" secondItem="5uS-FI-xdO" secondAttribute="bottom" constant="10" id="IJG-CY-hvO"/>
                             <constraint firstItem="XHX-cD-AGL" firstAttribute="trailing" secondItem="rrl-rl-cnv" secondAttribute="trailing" constant="20" id="Own-Oh-lfj"/>
-                            <constraint firstItem="rrl-rl-cnv" firstAttribute="top" secondItem="9kg-U2-bdI" secondAttribute="bottom" constant="30" id="PGW-jz-4YI"/>
+                            <constraint firstItem="rrl-rl-cnv" firstAttribute="top" secondItem="9kg-U2-bdI" secondAttribute="bottom" constant="15" id="PGW-jz-4YI"/>
                             <constraint firstAttribute="bottom" secondItem="ad8-ek-hfG" secondAttribute="bottom" id="PKf-he-Tbo"/>
                             <constraint firstItem="9kg-U2-bdI" firstAttribute="leading" secondItem="XHX-cD-AGL" secondAttribute="leading" constant="30" id="WMG-EF-Hrh"/>
                             <constraint firstItem="ad8-ek-hfG" firstAttribute="leading" secondItem="SVH-dG-Ix5" secondAttribute="leading" id="Wqh-C1-JKw"/>
@@ -4306,7 +4306,7 @@ Note - Don't fill your lungs too full of air 🫁.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pa-lq-JxB">
-                                <rect key="frame" x="20" y="710" width="335" height="48"/>
+                                <rect key="frame" x="20" y="720" width="335" height="48"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="XVr-1y-J5H"/>
@@ -4320,7 +4320,7 @@ Note - Don't fill your lungs too full of air 🫁.</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="94z-SA-6yj">
-                                <rect key="frame" x="20" y="647" width="340" height="48"/>
+                                <rect key="frame" x="20" y="662" width="340" height="48"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Note - The yoga we are doing is called Ujjayi." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nKl-bN-MBh">
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="18"/>
@@ -4356,13 +4356,13 @@ Note - Don't fill your lungs too full of air 🫁.</string>
                                 <rect key="frame" x="30" y="177.33333333333337" width="315" height="233"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KEu-OI-jEA">
-                                <rect key="frame" x="20" y="440.33333333333331" width="335" height="125.33333333333331"/>
+                                <rect key="frame" x="20" y="420.33333333333331" width="335" height="162.33333333333331"/>
                                 <string key="text">1. Close your eyes if possible
 
 2. Listen to  inhale, exhale &amp; hold sound carefully
 
 3. Repeat the inhale, exhale &amp; hold with the sound until the sound stopped &amp; you feel vibration</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -4373,7 +4373,7 @@ Note - Don't fill your lungs too full of air 🫁.</string>
                             <constraint firstItem="MEo-D0-Zf4" firstAttribute="top" secondItem="rqb-io-YNp" secondAttribute="bottom" constant="35" id="07k-rp-73B"/>
                             <constraint firstItem="KEu-OI-jEA" firstAttribute="leading" secondItem="WVK-Nk-aa5" secondAttribute="leading" constant="20" id="3jA-C0-O0P"/>
                             <constraint firstItem="GS8-Mj-oS9" firstAttribute="top" secondItem="gKb-4l-cuV" secondAttribute="top" id="42z-3N-XTI"/>
-                            <constraint firstItem="8pa-lq-JxB" firstAttribute="top" secondItem="94z-SA-6yj" secondAttribute="bottom" constant="15" id="4y4-vI-MLM"/>
+                            <constraint firstItem="8pa-lq-JxB" firstAttribute="top" secondItem="94z-SA-6yj" secondAttribute="bottom" constant="10" id="4y4-vI-MLM"/>
                             <constraint firstItem="MEo-D0-Zf4" firstAttribute="height" secondItem="WVK-Nk-aa5" secondAttribute="height" multiplier="0.32" id="53J-aF-5I4"/>
                             <constraint firstItem="WVK-Nk-aa5" firstAttribute="trailing" secondItem="rqb-io-YNp" secondAttribute="trailing" constant="20" id="67O-Cp-MbK"/>
                             <constraint firstItem="WVK-Nk-aa5" firstAttribute="trailing" secondItem="8pa-lq-JxB" secondAttribute="trailing" constant="20" id="9mi-A8-EGY"/>
@@ -4383,13 +4383,13 @@ Note - Don't fill your lungs too full of air 🫁.</string>
                             <constraint firstItem="rqb-io-YNp" firstAttribute="top" secondItem="vv7-vf-pfP" secondAttribute="bottom" constant="8" id="Ru8-g0-Z5m"/>
                             <constraint firstAttribute="trailing" secondItem="94z-SA-6yj" secondAttribute="trailing" constant="15" id="VpE-YO-Xzq"/>
                             <constraint firstItem="94z-SA-6yj" firstAttribute="leading" secondItem="WVK-Nk-aa5" secondAttribute="leading" constant="20" id="aYz-tx-MqJ"/>
-                            <constraint firstItem="KEu-OI-jEA" firstAttribute="top" secondItem="MEo-D0-Zf4" secondAttribute="bottom" constant="30" id="c9t-OL-lF2"/>
+                            <constraint firstItem="KEu-OI-jEA" firstAttribute="top" secondItem="MEo-D0-Zf4" secondAttribute="bottom" constant="10" id="c9t-OL-lF2"/>
                             <constraint firstItem="8pa-lq-JxB" firstAttribute="leading" secondItem="WVK-Nk-aa5" secondAttribute="leading" constant="20" id="cku-Ny-e8u"/>
                             <constraint firstItem="WVK-Nk-aa5" firstAttribute="trailing" secondItem="vv7-vf-pfP" secondAttribute="trailing" constant="20" id="fB2-91-bGS"/>
                             <constraint firstItem="WVK-Nk-aa5" firstAttribute="trailing" secondItem="KEu-OI-jEA" secondAttribute="trailing" constant="20" id="gXC-aO-qvI"/>
                             <constraint firstItem="rqb-io-YNp" firstAttribute="leading" secondItem="WVK-Nk-aa5" secondAttribute="leading" constant="20" id="kdj-jK-Gx2"/>
                             <constraint firstAttribute="bottom" secondItem="GS8-Mj-oS9" secondAttribute="bottom" id="oRE-F6-tjO"/>
-                            <constraint firstItem="WVK-Nk-aa5" firstAttribute="bottom" secondItem="8pa-lq-JxB" secondAttribute="bottom" constant="20" id="tSV-Mz-rmF"/>
+                            <constraint firstItem="WVK-Nk-aa5" firstAttribute="bottom" secondItem="8pa-lq-JxB" secondAttribute="bottom" constant="10" id="tSV-Mz-rmF"/>
                             <constraint firstItem="WVK-Nk-aa5" firstAttribute="trailing" secondItem="MEo-D0-Zf4" secondAttribute="trailing" constant="30" id="teb-zd-53j"/>
                             <constraint firstItem="GS8-Mj-oS9" firstAttribute="trailing" secondItem="gKb-4l-cuV" secondAttribute="trailing" id="vFj-58-kvB"/>
                         </constraints>
@@ -4747,19 +4747,19 @@ Inhale Slowly Through Both Nostrils 🌬️</string>
     </scenes>
     <designables>
         <designable name="0Kg-2y-8rh">
-            <size key="intrinsicContentSize" width="81" height="30"/>
+            <size key="intrinsicContentSize" width="123.33333333333333" height="38"/>
         </designable>
         <designable name="5jD-1j-Lp3">
-            <size key="intrinsicContentSize" width="40" height="30"/>
+            <size key="intrinsicContentSize" width="82.666666666666657" height="38"/>
         </designable>
         <designable name="6wJ-Ch-5t1">
-            <size key="intrinsicContentSize" width="51" height="30"/>
+            <size key="intrinsicContentSize" width="93.333333333333343" height="38"/>
         </designable>
         <designable name="7mT-ev-1HH">
-            <size key="intrinsicContentSize" width="36" height="30"/>
+            <size key="intrinsicContentSize" width="78.333333333333343" height="38"/>
         </designable>
         <designable name="8cJ-Gh-chE">
-            <size key="intrinsicContentSize" width="43" height="30"/>
+            <size key="intrinsicContentSize" width="85.333333333333343" height="38"/>
         </designable>
         <designable name="DfI-gO-pnS">
             <size key="intrinsicContentSize" width="67" height="30"/>
@@ -4768,7 +4768,7 @@ Inhale Slowly Through Both Nostrils 🌬️</string>
             <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="TP8-kR-PBN">
-            <size key="intrinsicContentSize" width="58" height="30"/>
+            <size key="intrinsicContentSize" width="101" height="38"/>
         </designable>
         <designable name="cii-wV-Z1r">
             <size key="intrinsicContentSize" width="88" height="30"/>
@@ -4777,10 +4777,10 @@ Inhale Slowly Through Both Nostrils 🌬️</string>
             <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="vW6-be-PmN">
-            <size key="intrinsicContentSize" width="61" height="30"/>
+            <size key="intrinsicContentSize" width="103.66666666666667" height="38"/>
         </designable>
         <designable name="zpt-Sp-svN">
-            <size key="intrinsicContentSize" width="72" height="30"/>
+            <size key="intrinsicContentSize" width="114.33333333333333" height="38"/>
         </designable>
     </designables>
     <resources>

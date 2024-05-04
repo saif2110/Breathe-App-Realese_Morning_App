@@ -828,10 +828,10 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Yoga;
+				INFOPLIST_KEY_CFBundleDisplayName = Relax;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -860,10 +860,10 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Yoga;
+				INFOPLIST_KEY_CFBundleDisplayName = Relax;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
