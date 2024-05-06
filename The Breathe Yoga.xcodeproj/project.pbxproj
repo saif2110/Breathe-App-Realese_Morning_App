@@ -832,7 +832,7 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Relax;
@@ -842,7 +842,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Breathe.Yoga;
@@ -864,7 +864,7 @@
 				CODE_SIGN_ENTITLEMENTS = "The Breathe Yoga.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = 959YZPX78D;
 				INFOPLIST_FILE = "$(SRCROOT)/The Breathe Yoga/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Relax;
@@ -874,7 +874,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 2.6;
 				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
 				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "--generate-entitlement-der";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Breathe.Yoga;

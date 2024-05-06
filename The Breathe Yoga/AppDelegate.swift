@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         createSQLDataBase()
         
         Purchases.debugLogsEnabled = false
-        Purchases.configure(withAPIKey: "appl_NNAiDDAIGSXBkCCddrZIwfgyAii")
+        Purchases.configure(withAPIKey: "appl_GaZBQrDtTdMTJFgcobvpnvTeQRu")
         
         UserDefaults.standard.setnumberOftimeAppOpen(value:
                                                         UserDefaults.standard.getnumberOftimeAppOpen()+1)
